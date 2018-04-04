@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>55</sentences><tokens>292</tokens><words>292</words><fused>0</fused></total>
+  </size>
+  <lemmas unique="84" /><!-- ang, ., ng, pagkain, luto, nanay, sa, titser, babae, bahay, bangka, bata, na, artista, bago -->
+  <forms unique="101" /><!-- ., ang, ng, pagkain, nanay, sa, titser, babae, bahay, bangka, bata, na, nagluluto, nagluto, niya -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="12">
+    <tag name="ADJ">8</tag><!-- bago, buti, ganda, komika, pagod, tamis -->
+    <tag name="ADP">24</tag><!-- ng, sa, ang, nasa -->
+    <tag name="ADV">10</tag><!-- na, pa, araw, bukas, para, tungkol -->
+    <tag name="AUX">1</tag><!-- may -->
+    <tag name="DET">53</tag><!-- ang -->
+    <tag name="NOUN">85</tag><!-- pagkain, nanay, titser, babae, bahay, bangka, bata, artista, isda, istudyante -->
+    <tag name="PART">2</tag><!-- hindi, ng -->
+    <tag name="PRON">13</tag><!-- ang, ng, ko -->
+    <tag name="PROPN">3</tag><!-- Juan, Linda, Maynila -->
+    <tag name="PUNCT">57</tag><!-- ., - -->
+    <tag name="SCONJ">2</tag><!-- nang -->
+    <tag name="VERB">34</tag><!-- luto, dating, basa, bigay, bili, gising, salpok, sulat, yaman, balik -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="27">
+    <feat name="Aspect" value="Hab" upos="VERB">1</feat><!-- Kailangan -->
+    <feat name="Aspect" value="Imp" upos="VERB">11</feat><!-- nagluluto, Binabasa, Bumabasa, Dumarating, Humihinga, Naghihilik, Nauuhaw, Tumatanda -->
+    <feat name="Aspect" value="Perf" upos="VERB">21</feat><!-- nagluto, dumating, yumaman, Binalikan, Binigyan, Binili, Bumili, Ginising, Gumising, Ibinigay -->
+    <feat name="Aspect" value="Prosp" upos="VERB">1</feat><!-- Magluluto -->
+    <feat name="Case" value="Abs" upos="ADP,DET,PRON">52</feat><!-- ang, ako, si, Siya, kita -->
+    <feat name="Case" value="Dat" upos="ADP">5</feat><!-- sa -->
+    <feat name="Case" value="Erg" upos="ADP,PART,PRON">25</feat><!-- ng, niya, ko -->
+    <feat name="Case" value="Loc" upos="ADP">1</feat><!-- Nasa -->
+    <feat name="Definite" value="Def" upos="DET">50</feat><!-- ang -->
+    <feat name="Definite" value="Ind" upos="DET">1</feat><!-- ang -->
+    <feat name="Degree" value="Pos" upos="ADJ">5</feat><!-- Bago, Mabuti, Maganda, Matamis, Pagod -->
+    <feat name="Degree" value="Sup" upos="ADJ">1</feat><!-- bago -->
+    <feat name="Foreign" value="Yes" upos="NOUN">1</feat><!-- bus -->
+    <feat name="Gender" value="Fem" upos="ADJ,NOUN,PROPN">4</feat><!-- Biyuda, Komika, Linda, maestra -->
+    <feat name="Gender" value="Masc" upos="NOUN">2</feat><!-- Biyudo, maestro -->
+    <feat name="Mood" value="Ind" upos="VERB">34</feat><!-- nagluluto, nagluto, dumating, yumaman, Binabasa, Binalikan, Binigyan, Binili, Bumabasa, Bumili -->
+    <feat name="Number" value="Coll" upos="NOUN">13</feat><!-- pagkain, alon, gulayan, ingay -->
+    <feat name="Number" value="Dual" upos="PRON">1</feat><!-- kita -->
+    <feat name="Number" value="Plur" upos="NOUN">1</feat><!-- araw -->
+    <feat name="Number" value="Sing" upos="DET,NOUN,PRON,PROPN">77</feat><!-- nanay, titser, babae, bahay, bangka, bata, Artista, Isda, istudyante, ko -->
+    <feat name="Person" value="1" upos="PRON">5</feat><!-- ko, ako -->
+    <feat name="Person" value="3" upos="PRON">1</feat><!-- Siya -->
+    <feat name="Polarity" value="Neg" upos="PART">1</feat><!-- Hindi -->
+    <feat name="Poss" value="Yes" upos="ADP,PRON">3</feat><!-- niya, Sa -->
+    <feat name="PronType" value="Dem" upos="PRON">2</feat><!-- Iyan, ito -->
+    <feat name="PronType" value="Prs" upos="PRON">1</feat><!-- Siya -->
+    <feat name="VerbForm" value="Inf" upos="VERB">1</feat><!-- Kailangan -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="15">
+    <dep name="advcl">2</dep>
+    <dep name="advmod">9</dep>
+    <dep name="case">24</dep>
+    <dep name="compound">2</dep>
+    <dep name="compound:redup">2</dep>
+    <dep name="cop">1</dep>
+    <dep name="csubj">1</dep>
+    <dep name="det">54</dep>
+    <dep name="iobj">2</dep>
+    <dep name="mark">2</dep>
+    <dep name="nmod:poss">3</dep>
+    <dep name="nsubj">54</dep>
+    <dep name="obj">24</dep>
+    <dep name="punct">57</dep>
+    <dep name="root">55</dep>
+  </deps>
+</treebank>

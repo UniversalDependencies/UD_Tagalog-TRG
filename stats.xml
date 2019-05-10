@@ -6,6 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>55</sentences><tokens>292</tokens><words>292</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>55</sentences><tokens>292</tokens><words>292</words><fused>0</fused></test>
   </size>
   <lemmas unique="84" /><!-- ang, ., ng, pagkain, luto, nanay, sa, titser, babae, bahay, bangka, bata, na, artista, bago -->
   <forms unique="101" /><!-- ., ang, ng, pagkain, nanay, sa, titser, babae, bahay, bangka, bata, na, nagluluto, nagluto, niya -->

@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Tagalog-TRG:
-commit f13bf9073bd200fb56be892add1ba08de7c8f758
-Merge: dc5b3d2 5affdf3
+commit 3a23f24ded2f829d0ed99d93235a925bcd3ee82a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 21:45:35 2019 +0200
 Size: counted 292 of 292 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,8 +23,13 @@ Udapi: found 98 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 292 words.
 Genres: found 1 out of 17 known.
 validate.py --lang tl --max-err=10 UD_Tagalog-TRG/tl_trg-ud-test.conllu
-*** PASSED ***
-Validity: 1
+[Line 201 Sent schachter-otanes-65-6 Node 2]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (2:sa:case --> 1:Para:compound)
+[Line 211 Sent schachter-otanes-65-7 Node 2]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (2:sa:case --> 1:Tungkol:compound)
+[Line 290 Sent schachter-otanes-67-3 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+Syntax errors: 3
+*** FAILED *** with 3 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
@@ -33,6 +38,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.378378378378378) = 0.0291060291060291
-(TOTAL score=0.245365455953691) * (availability=1) * (validity=1) = 0.245365455953691
-STARS = 1
-UD_Tagalog-TRG	0.245365455953691	1
+(TOTAL score=0.245365455953691) * (availability=1) * (validity=0.01) = 0.00245365455953691
+STARS = 0
+UD_Tagalog-TRG	0.00245365455953691	0

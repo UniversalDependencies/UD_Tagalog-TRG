@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Tagalog-TRG:
-commit 3a23f24ded2f829d0ed99d93235a925bcd3ee82a
+commit 3a0d8f0a852c5e34aec464783d968cacdfb25846
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 10 21:45:35 2019 +0200
+Date:   Tue Nov 12 17:47:42 2019 +0100
 Size: counted 292 of 292 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.
 Size: maximum value 13.815511 is for 1000000 words or more.

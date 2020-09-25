@@ -20,6 +20,8 @@ of California Press. isbn: 9780520017764.
 
 # Changelog
 
+* 2020-11-15 v2.7
+    * Fixed a few validation errors.
 * 2018-03-14 v0.1
     * First release in UD
 

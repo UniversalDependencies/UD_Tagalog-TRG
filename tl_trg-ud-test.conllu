@@ -1,7 +1,7 @@
 # sent_id = schachter-otanes-60-0
 # text = Gumising ang bata.
 # text_en = The child awoke.
-1	Gumising	gising	VERB	VBD	Aspect=Perf|Mood=Ind	0	root	_	Focus=Act
+1	Gumising	gising	VERB	VBD	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	_
 2	ang	ang	DET	DT	Case=Abs|Definite=Def	3	det	_	_
 3	bata	bata	NOUN	NN	Number=Sing	1	nsubj	_	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	_	_
@@ -9,35 +9,35 @@
 # sent_id = schachter-otanes-60-1
 # text = Ginising ng ingay ang bata.
 # text_en = A noise awakened the child.
-1	Ginising	gising	VERB	VBD	Aspect=Perf|Mood=Ind	0	root	_	Focus=Obj
+1	Ginising	gising	VERB	VBD	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	_
 2	ng	ng	ADP	_	Case=Erg	3	case	_	_
-3	ingay	ingay	NOUN	NN	Number=Coll	1	obj	_	_
+3	ingay	ingay	NOUN	NN	Number=Coll	1	obj:agent	_	_
 4	ang	ang	DET	DT	Case=Abs|Definite=Def	5	det	_	_
-5	bata	bata	NOUN	NN	Number=Sing	1	nsubj	_	SpaceAfter=No
+5	bata	bata	NOUN	NN	Number=Sing	1	nsubj:pass	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = schachter-otanes-60-2
 # text = Sinulat ko ang liham.
 # text_en = I wrote the letter.
-1	Sinulat	sulat	VERB	VBD	Aspect=Perf|Mood=Ind	0	root	_	Focus=Obj
-2	ko	ng	PRON	PRP	Case=Erg|Number=Sing|Person=1	1	obj	_	_
+1	Sinulat	sulat	VERB	VBD	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	_
+2	ko	ng	PRON	PRP	Case=Erg|Number=Sing|Person=1	1	obj:agent	_	_
 3	ang	ang	DET	DT	Case=Abs|Definite=Def	4	det	_	_
-4	liham	liham	NOUN	NN	Number=Sing	1	nsubj	_	SpaceAfter=No
+4	liham	liham	NOUN	NN	Number=Sing	1	nsubj:pass	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = schachter-otanes-60-3
 # text = Sinulatan ko ang titser.
 # text_en = I wrote to the teacher.
-1	Sinulatan	sulat	VERB	VBD	Aspect=Perf|Mood=Ind	0	root	_	Focus=Obj
-2	ko	ng	PRON	PRP	Case=Erg|Number=Sing|Person=1	1	obj	_	_
+1	Sinulatan	sulat	VERB	VBD	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	_
+2	ko	ng	PRON	PRP	Case=Erg|Number=Sing|Person=1	1	obj:agent	_	_
 3	ang	ang	DET	DT	Case=Abs|Definite=Def	4	det	_	_
-4	titser	titser	NOUN	NN	Number=Sing	1	nsubj	_	SpaceAfter=No
+4	titser	titser	NOUN	NN	Number=Sing	1	nsubj:pass	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = schachter-otanes-61-2
 # text = Dumarating na ang bus.
 # text_en = The bus is coming now.
-1	Dumarating	dating	VERB	VBG	Aspect=Imp|Mood=Ind	0	root	_	Focus=Act
+1	Dumarating	dating	VERB	VBG	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	_
 2	na	na	ADV	RP	_	1	advmod	_	_
 3	ang	ang	DET	DT	Definite=Def	4	det	_	_
 4	bus	bus	NOUN	NN	Foreign=Yes|Number=Sing	1	nsubj	_	SpaceAfter=No
@@ -62,7 +62,7 @@
 # sent_id = schachter-otanes-61-5
 # text = Yumaman ang babae.
 # text_en = The woman got rich.
-1	Yumaman	yaman	VERB	VBD	Aspect=Perf|Mood=Ind	0	root	_	Focus=Act
+1	Yumaman	yaman	VERB	VBD	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	_
 2	ang	ang	DET	DT	Case=Abs|Definite=Def	3	det	_	_
 3	babae	babae	NOUN	NN	Number=Sing	1	nsubj	_	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	_	_
@@ -72,7 +72,7 @@
 # text_en = The one who got rich is an actress.
 1	Artista	artista	NOUN	NN	Number=Sing	0	root	_	_
 2	ang	ang	DET	DT	Case=Abs|Definite=Def	3	det	_	_
-3	yumaman	yaman	VERB	VBD	Aspect=Perf|Mood=Ind	1	csubj	_	Focus=Act|SpaceAfter=No
+3	yumaman	yaman	VERB	VBD	Aspect=Perf|Mood=Ind|Voice=Act	1	csubj	_	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = schachter-otanes-62-1
@@ -80,7 +80,7 @@
 # text_en = The one who cooked some food is an actress.
 1	Artista	artista	NOUN	NN	Number=Sing	3	nsubj	_	_
 2	ang	ang	ADP	_	Case=Abs	1	case	_	_
-3	nagluto	luto	VERB	VBD	Aspect=Perf|Mood=Ind	0	root	_	Focus=Act
+3	nagluto	luto	VERB	VBD	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	_
 4	ng	ng	PART	NG	Case=Erg	5	case	_	_
 5	pagkain	pagkain	NOUN	NN	Number=Coll	3	obj	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	3	punct	_	_
@@ -245,7 +245,7 @@
 # sent_id = schachter-otanes-67-0
 # text = Nagluto ng pagkain ang nanay.
 # text_en = Mother cooked some food.
-1	Nagluto	luto	VERB	VBD	Aspect=Perf|Mood=Ind	0	root	_	Focus=Act
+1	Nagluto	luto	VERB	VBD	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	_
 2	ng	ng	ADP	_	Case=Erg	3	case	_	_
 3	pagkain	pagkain	NOUN	NN	Number=Coll	1	obj	_	_
 4	ang	ang	DET	DT	Case=Abs|Definite=Def	5	det	_	_
@@ -255,7 +255,7 @@
 # sent_id = schachter-otanes-67-1
 # text = Nagluto na ng pagkain ang nanay.
 # text_en = Mother has cooked some food.
-1	Nagluto	luto	VERB	VBD	Aspect=Perf|Mood=Ind	0	root	_	Focus=Act
+1	Nagluto	luto	VERB	VBD	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	_
 2	na	na	ADV	RP	_	1	advmod	_	_
 3	ng	ng	ADP	_	Case=Erg	4	case	_	_
 4	pagkain	pagkain	NOUN	NN	Number=Coll	1	obj	_	_
@@ -266,21 +266,21 @@
 # sent_id = schachter-otanes-67-2
 # text = Nagluto na ng pagkain ang nanay noong dumating ako.
 # text_en = Mother had cooked some food when I arrived.
-1	Nagluto	luto	VERB	VBD	Aspect=Perf|Mood=Ind	0	root	_	Focus=Act
+1	Nagluto	luto	VERB	VBD	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	_
 2	na	na	ADV	RP	_	1	advmod	_	_
 3	ng	ng	ADP	_	Case=Erg	4	case	_	_
 4	pagkain	pagkain	NOUN	NN	Number=Coll	1	obj	_	_
 5	ang	ang	DET	DT	Case=Abs|Definite=Def	6	det	_	_
 6	nanay	nanay	NOUN	NN	Number=Sing	1	nsubj	_	_
 7	noong	nang	SCONJ	_	_	8	mark	_	_
-8	dumating	dating	VERB	VBD	Aspect=Perf|Mood=Ind	1	advcl	_	Focus=Act
+8	dumating	dating	VERB	VBD	Aspect=Perf|Mood=Ind|Voice=Act	1	advcl	_	_
 9	ako	ang	PRON	PRP	Case=Abs|Number=Sing|Person=1	8	nsubj	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = schachter-otanes-67-3
 # text = Nagluluto ng pagkain ang nanay araw-araw.
 # text_en = Mother is cooking some food everyday.
-1	Nagluluto	luto	VERB	VBG	Aspect=Imp|Mood=Ind	0	root	_	Focus=Act
+1	Nagluluto	luto	VERB	VBG	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	_
 2	ng	ng	ADP	_	Case=Erg	3	case	_	_
 3	pagkain	pagkain	NOUN	NN	Number=Coll	1	obj	_	_
 4	ang	ang	DET	DT	Case=Abs|Definite=Def	5	det	_	_
@@ -293,7 +293,7 @@
 # sent_id = schachter-otanes-67-4
 # text = Nagluluto na ng pagkain ang nanay.
 # text_en = Mother is cooking some food now.
-1	Nagluluto	luto	VERB	VBP	Aspect=Imp|Mood=Ind	0	root	_	Focus=Act
+1	Nagluluto	luto	VERB	VBP	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	_
 2	na	na	ADV	RP	_	1	advmod	_	_
 3	ng	ng	ADP	_	Case=Erg	4	case	_	_
 4	pagkain	pagkain	NOUN	NN	Number=Coll	1	obj	_	_
@@ -304,20 +304,20 @@
 # sent_id = schachter-otanes-67-5
 # text = Nagluluto ng pagkain ang nanay noong dumating ako.
 # text_en = Mother had cooked some food when I arrived.
-1	Nagluluto	luto	VERB	VBD	Aspect=Imp|Mood=Ind	0	root	_	Focus=Act
+1	Nagluluto	luto	VERB	VBD	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	_
 2	ng	ng	ADP	_	Case=Erg	3	case	_	_
 3	pagkain	pagkain	NOUN	NN	Number=Coll	1	obj	_	_
 4	ang	ang	DET	DT	Case=Abs|Definite=Def	5	det	_	_
 5	nanay	nanay	NOUN	NN	Number=Sing	1	nsubj	_	_
 6	noong	nang	SCONJ	_	_	7	mark	_	_
-7	dumating	dating	VERB	VBD	Aspect=Perf|Mood=Ind	1	advcl	_	Focus=Act
+7	dumating	dating	VERB	VBD	Aspect=Perf|Mood=Ind|Voice=Act	1	advcl	_	_
 8	ako	ang	PRON	PRP	Case=Abs|Number=Sing|Person=1	7	nsubj	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = schachter-otanes-67-6
 # text = Magluluto ng pagkain ang nanay bukas.
 # text_en = Mother will some food tomorrow.
-1	Magluluto	luto	VERB	VBD	Aspect=Prosp|Mood=Ind	0	root	_	Focus=Act
+1	Magluluto	luto	VERB	VBD	Aspect=Prosp|Mood=Ind|Voice=Act	0	root	_	_
 2	ng	ng	ADP	_	Case=Erg	3	case	_	_
 3	pagkain	pagkain	NOUN	NN	Number=Coll	1	obj	_	_
 4	ang	ang	DET	DT	Case=Abs|Definite=Def	5	det	_	_
@@ -330,7 +330,7 @@
 # text_en = Mother has not cooked any food yet.
 1	Hindi	hindi	PART	RB	Polarity=Neg	3	advmod	_	_
 2	pa	pa	ADV	RP	_	3	advmod	_	_
-3	nagluluto	luto	VERB	VBD	Aspect=Imp|Mood=Ind	0	root	_	Focus=Act
+3	nagluluto	luto	VERB	VBD	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	_
 4	ng	ng	ADP	_	Case=Erg	5	case	_	_
 5	pagkain	pagkain	NOUN	NN	Number=Coll	3	obj	_	_
 6	ang	ang	DET	DT	Case=Abs|Definite=Def	7	det	_	_
@@ -340,7 +340,7 @@
 # sent_id = schachter-otanes-69-0
 # text = Bumabasa ng diyaryo ang titser.
 # text_en = The teacher is reading a newspaper.
-1	Bumabasa	basa	VERB	VBP	Aspect=Imp|Mood=Ind	0	root	_	Focus=Act
+1	Bumabasa	basa	VERB	VBP	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	_
 2	ng	ng	ADP	_	Case=Erg	3	case	_	_
 3	diyaryo	diyaryo	NOUN	NN	Number=Sing	1	obj	_	_
 4	ang	ang	DET	DT	Case=Abs|Definite=Def	5	det	_	_
@@ -350,17 +350,17 @@
 # sent_id = schachter-otanes-69-1
 # text = Binabasa ng diyaryo ang titser.
 # text_en = The teacher is reading the newspaper.
-1	Binabasa	basa	VERB	VBP	Aspect=Imp|Mood=Ind	0	root	_	Focus=Obj
+1	Binabasa	basa	VERB	VBP	Aspect=Imp|Mood=Ind|Voice=Pass	0	root	_	_
 2	ng	ng	ADP	_	Case=Erg	3	case	_	_
-3	diyaryo	diyaryo	NOUN	NN	Number=Sing	1	obj	_	_
+3	diyaryo	diyaryo	NOUN	NN	Number=Sing	1	obj:agent	_	_
 4	ang	ang	DET	DT	Case=Abs|Definite=Def	5	det	_	_
-5	titser	titser	NOUN	NN	Number=Sing	1	nsubj	_	SpaceAfter=No
+5	titser	titser	NOUN	NN	Number=Sing	1	nsubj:pass	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = schachter-otanes-69-2
 # text = Naghihilik ang lolo.
 # text_en = Grandfather is snoring.
-1	Naghihilik	hilik	VERB	VBG	Aspect=Imp|Mood=Ind	0	root	_	Focus=Act
+1	Naghihilik	hilik	VERB	VBG	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	_
 2	ang	ang	DET	DT	Case=Abs|Definite=Def	3	det	_	_
 3	lolo	lolo	NOUN	NN	Number=Sing	1	nsubj	_	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	_	_
@@ -368,7 +368,7 @@
 # sent_id = schachter-otanes-69-3
 # text = Humihinga pa ang pasyente.
 # text_en = The patient is still breathing.
-1	Humihinga	hinga	VERB	VBG	Aspect=Imp|Mood=Ind	0	root	_	Focus=Act
+1	Humihinga	hinga	VERB	VBG	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	_
 2	pa	pa	ADV	RP	_	1	advmod	_	_
 3	ang	ang	DET	DT	Case=Abs|Definite=Def	4	det	_	_
 4	pasyente	pasyente	NOUN	NN	Number=Sing	1	nsubj	_	SpaceAfter=No
@@ -377,7 +377,7 @@
 # sent_id = schachter-otanes-70-0
 # text = Nauuhaw ang sanggol.
 # text_en = The baby is getting thirsty.
-1	Nauuhaw	uhaw	VERB	VBG	Aspect=Imp|Mood=Ind	0	root	_	Focus=Act
+1	Nauuhaw	uhaw	VERB	VBG	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	_
 2	ang	ang	DET	DT	Case=Abs|Definite=Def	3	det	_	_
 3	sanggol	sanggol	NOUN	NN	Number=Sing	1	nsubj	_	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	_	_
@@ -385,7 +385,7 @@
 # sent_id = schachter-otanes-70-1
 # text = Tumatanda ang aso.
 # text_en = The dog is growing old.
-1	Tumatanda	magtanda	VERB	VBG	Aspect=Imp|Mood=Ind	0	root	_	Focus=Act
+1	Tumatanda	magtanda	VERB	VBG	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	_
 2	ang	ang	DET	DT	Case=Abs|Definite=Def	3	det	_	_
 3	aso	aso	NOUN	NN	Number=Sing	1	nsubj	_	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	_	_
@@ -393,51 +393,51 @@
 # sent_id = schachter-otanes-70-2
 # text = Ibinigay ng titser sa istudyante ang premyo.
 # text_en = The teacher gave the student the prize.
-1	Ibinigay	bigay	VERB	VBP	Aspect=Perf|Mood=Ind	0	root	_	Focus=Obj
+1	Ibinigay	bigay	VERB	VBP	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	_
 2	ng	ng	ADP	_	Case=Erg	3	case	_	_
-3	titser	titser	NOUN	NN	Number=Sing	1	obj	_	_
+3	titser	titser	NOUN	NN	Number=Sing	1	obj:agent	_	_
 4	sa	sa	ADP	IN	Case=Dat	5	case	_	_
 5	istudyante	istudyante	NOUN	NN	Number=Sing	1	iobj	_	_
 6	ang	ang	DET	DT	Case=Abs|Definite=Def	7	det	_	_
-7	premyo	premyo	NOUN	NN	Number=Sing	1	nsubj	_	SpaceAfter=No
+7	premyo	premyo	NOUN	NN	Number=Sing	1	nsubj:pass	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = schachter-otanes-70-3
 # text = Binigyan ng titser ng premyo ang istudyante.
 # text_en = The teacher gave the student a prize.
-1	Binigyan	bigay	VERB	VBP	Aspect=Perf|Mood=Ind	0	root	_	Focus=Loc
+1	Binigyan	bigay	VERB	VBP	Aspect=Perf|Mood=Ind|Voice=Lfoc	0	root	_	_
 2	ng	ng	ADP	_	Case=Erg	3	case	_	_
-3	titser	titser	NOUN	NN	Number=Sing	1	obj	_	_
+3	titser	titser	NOUN	NN	Number=Sing	1	obj:agent	_	_
 4	ng	ng	ADP	_	Case=Erg	3	case	_	_
 5	premyo	premyo	NOUN	NN	Number=Sing	1	iobj	_	_
 6	ang	ang	DET	DT	Case=Abs|Definite=Def	7	det	_	_
-7	istudyante	istudyante	NOUN	NN	Number=Sing	1	nsubj	_	SpaceAfter=No
+7	istudyante	istudyante	NOUN	NN	Number=Sing	1	nsubj:lfoc	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = schachter-otanes-70-4
 # text = Binili ng mangingisda ang bangka.
 # text_en = The fisherman bought the boat.
-1	Binili	bili	VERB	VBP	Aspect=Perf|Mood=Ind	0	root	_	Focus=Obj
+1	Binili	bili	VERB	VBP	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	_
 2	ng	ng	ADP	_	Case=Erg	3	case	_	_
-3	mangingisda	mangingisda	NOUN	NN	Number=Sing	1	obj	_	_
+3	mangingisda	mangingisda	NOUN	NN	Number=Sing	1	obj:agent	_	_
 4	ang	ang	DET	DT	Case=Abs|Definite=Def	5	det	_	_
-5	bangka	bangka	NOUN	NN	Number=Sing	1	nsubj	_	SpaceAfter=No
+5	bangka	bangka	NOUN	NN	Number=Sing	1	nsubj:pass	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = schachter-otanes-70-5
 # text = Sinalpok ng alon ang bangka.
 # text_en = The wave struck the boat.
-1	Sinalpok	salpok	VERB	VBP	Aspect=Perf|Mood=Ind	0	root	_	Focus=Loc
+1	Sinalpok	salpok	VERB	VBP	Aspect=Perf|Mood=Ind|Voice=Lfoc	0	root	_	_
 2	ng	ng	ADP	_	Case=Erg	3	case	_	_
-3	alon	alon	NOUN	NN	Number=Coll	1	obj	_	_
+3	alon	alon	NOUN	NN	Number=Coll	1	obj:agent	_	_
 4	ang	ang	DET	DT	Case=Abs|Definite=Def	5	det	_	_
-5	bangka	bangka	NOUN	NN	Number=Sing	1	nsubj	_	SpaceAfter=No
+5	bangka	bangka	NOUN	NN	Number=Sing	1	nsubj:lfoc	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = schachter-otanes-70-6
 # text = Bumili ng bangka ang mangingisda.
 # text_en = The fisherman bought a boat.
-1	Bumili	bili	VERB	VBP	Aspect=Perf|Mood=Ind	0	root	_	Focus=Act
+1	Bumili	bili	VERB	VBP	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	_
 2	ng	ng	ADP	_	Case=Erg	3	case	_	_
 3	bangka	bangka	NOUN	NN	Number=Sing	1	obj	_	_
 4	ang	ang	DET	DT	Case=Abs|Definite=Def	5	det	_	_
@@ -447,7 +447,7 @@
 # sent_id = schachter-otanes-70-7
 # text = Sumalpok sa bangka ang alon.
 # text_en = The wave struck the boat.
-1	Sumalpok	salpok	VERB	VBP	Aspect=Perf|Mood=Ind	0	root	_	Focus=Act
+1	Sumalpok	salpok	VERB	VBP	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	_
 2	sa	sa	ADP	IN	Case=Dat	3	case	_	_
 3	bangka	bangka	NOUN	NN	Number=Sing	1	obj	_	_
 4	ang	ang	DET	DT	Case=Abs|Definite=Def	5	det	_	_
@@ -457,19 +457,19 @@
 # sent_id = schachter-otanes-71-0
 # text = Binalikan niya ang Maynila.
 # text_en = He returned to Manila.
-1	Binalikan	balik	VERB	VBP	Aspect=Perf|Mood=Ind	0	root	_	Focus=Loc
-2	niya	ng	PRON	PRP	Case=Erg	1	obj	_	_
+1	Binalikan	balik	VERB	VBP	Aspect=Perf|Mood=Ind|Voice=Lfoc	0	root	_	_
+2	niya	ng	PRON	PRP	Case=Erg	1	obj:agent	_	_
 3	ang	ang	DET	DT	Case=Abs|Definite=Def	4	det	_	_
-4	Maynila	Maynila	PROPN	NNP	_	1	nsubj	_	SpaceAfter=No
+4	Maynila	Maynila	PROPN	NNP	_	1	nsubj:lfoc	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = schachter-otanes-71-1
 # text = Tinakasan niya ang bilangguan.
 # text_en = He escaped from the prison.
-1	Tinakasan	takas	VERB	VBP	Aspect=Perf|Mood=Ind	0	root	_	Focus=Loc
-2	niya	ng	PRON	PRP	Case=Erg	1	obj	_	_
+1	Tinakasan	takas	VERB	VBP	Aspect=Perf|Mood=Ind|Voice=Lfoc	0	root	_	_
+2	niya	ng	PRON	PRP	Case=Erg	1	obj:agent	_	_
 3	ang	ang	DET	DT	Case=Abs|Definite=Def	4	det	_	_
-4	bilangguan	bilangguan	NOUN	NN	Number=Sing	1	nsubj	_	SpaceAfter=No
+4	bilangguan	bilangguan	NOUN	NN	Number=Sing	1	nsubj:lfoc	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = schachter-otanes-95-10
@@ -506,7 +506,7 @@
 # sent_id = devos-71-0
 # text = Nakita kita.
 # text_en = I saw you.
-1	Nakita	kita	VERB	VBD	Aspect=Perf|Mood=Ind	0	root	_	Focus=Obj
-2	kita	ang	PRON	PRP	Case=Abs|Number=Dual	1	nsubj	_	SpaceAfter=No
+1	Nakita	kita	VERB	VBD	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	_
+2	kita	ang	PRON	PRP	Case=Abs|Number=Dual	1	nsubj:pass	_	SpaceAfter=No
 3	.	.	PUNCT	.	_	1	punct	_	_
 

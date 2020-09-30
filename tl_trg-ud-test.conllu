@@ -337,7 +337,7 @@
 7	nanay	nanay	NOUN	_	Number=Sing	3	nsubj	_	Gloss=mother|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = schachter-otanes-69-0
+# sent_id = schachter-otanes-69-1
 # text = Bumabasa ng diyaryo ang titser.
 # text_en = The teacher is reading a newspaper.
 1	Bumabasa	basa	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=reading
@@ -347,17 +347,17 @@
 5	titser	titser	NOUN	_	Number=Sing	1	nsubj	_	Gloss=teacher|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = schachter-otanes-69-1
-# text = Binabasa ng diyaryo ang titser.
+# sent_id = schachter-otanes-69-2
+# text = Binabasa ng titser ang diyaryo.
 # text_en = The teacher is reading the newspaper.
 1	Binabasa	basa	VERB	_	Aspect=Imp|Mood=Ind|Voice=Pass	0	root	_	Gloss=being-read
 2	ng	ng	ADP	_	Case=Erg	3	case	_	_
-3	diyaryo	diyaryo	NOUN	_	Number=Sing	1	obj:agent	_	Gloss=newspaper
+3	titser	titser	NOUN	_	Number=Sing	1	obj:agent	_	Gloss=teacher
 4	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	5	det	_	Gloss=the
-5	titser	titser	NOUN	_	Number=Sing	1	nsubj:pass	_	Gloss=teacher|SpaceAfter=No
+5	diyaryo	diyaryo	NOUN	_	Number=Sing	1	nsubj:pass	_	Gloss=newspaper|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = schachter-otanes-69-2
+# sent_id = schachter-otanes-69-3
 # text = Naghihilik ang lolo.
 # text_en = Grandfather is snoring.
 1	Naghihilik	hilik	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=snoring
@@ -365,7 +365,7 @@
 3	lolo	lolo	NOUN	_	Number=Sing	1	nsubj	_	Gloss=grandfather|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = schachter-otanes-69-3
+# sent_id = schachter-otanes-69-4
 # text = Humihinga pa ang pasyente.
 # text_en = The patient is still breathing.
 1	Humihinga	hinga	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=breathing

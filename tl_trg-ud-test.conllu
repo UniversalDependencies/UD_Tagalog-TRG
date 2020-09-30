@@ -397,7 +397,7 @@
 2	ng	ng	ADP	_	Case=Erg	3	case	_	_
 3	titser	titser	NOUN	_	Number=Sing	1	obj:agent	_	Gloss=teacher
 4	sa	sa	ADP	_	Case=Dat	5	case	_	Gloss=to
-5	istudyante	istudyante	NOUN	_	Number=Sing	1	iobj	_	Gloss=student
+5	istudyante	istudyante	NOUN	_	Number=Sing	1	obl	_	Gloss=student
 6	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	7	det	_	Gloss=the
 7	premyo	premyo	NOUN	_	Number=Sing	1	nsubj:pass	_	Gloss=prize|SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
@@ -449,7 +449,7 @@
 # text_en = The wave struck the boat.
 1	Sumalpok	salpok	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=struck
 2	sa	sa	ADP	_	Case=Dat	3	case	_	Gloss=to
-3	bangka	bangka	NOUN	_	Number=Sing	1	obj	_	Gloss=boat
+3	bangka	bangka	NOUN	_	Number=Sing	1	obl	_	Gloss=boat
 4	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	5	det	_	Gloss=the
 5	alon	alon	NOUN	_	Number=Coll	1	nsubj	_	Gloss=wave|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_

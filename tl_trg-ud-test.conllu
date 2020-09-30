@@ -20,7 +20,7 @@
 # text = Sinulat ko ang liham.
 # text_en = I wrote the letter.
 1	Sinulat	sulat	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	_
-2	ko	ng	PRON	_	Case=Erg|Number=Sing|Person=1	1	obj:agent	_	_
+2	ko	ng	PRON	_	Case=Erg|Number=Sing|Person=1|PronType=Prs	1	obj:agent	_	_
 3	ang	ang	DET	_	Case=Abs|Definite=Def	4	det	_	_
 4	liham	liham	NOUN	_	Number=Sing	1	nsubj:pass	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
@@ -29,7 +29,7 @@
 # text = Sinulatan ko ang titser.
 # text_en = I wrote to the teacher.
 1	Sinulatan	sulat	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	_
-2	ko	ng	PRON	_	Case=Erg|Number=Sing|Person=1	1	obj:agent	_	_
+2	ko	ng	PRON	_	Case=Erg|Number=Sing|Person=1|PronType=Prs	1	obj:agent	_	_
 3	ang	ang	DET	_	Case=Abs|Definite=Def	4	det	_	_
 4	titser	titser	NOUN	_	Number=Sing	1	nsubj:pass	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
@@ -124,7 +124,7 @@
 1	Isda	isda	NOUN	_	Number=Sing	0	root	_	_
 2	ang	ang	DET	_	Case=Abs|Definite=Ind	3	det	_	_
 3	pagkain	pagkain	NOUN	_	Number=Sing	1	nsubj	_	_
-4	niya	ng	PRON	_	Case=Erg|Poss=Yes	3	nmod:poss	_	SpaceAfter=No
+4	niya	ng	PRON	_	Case=Erg|Poss=Yes|PronType=Prs	3	nmod:poss	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-64-5
@@ -133,7 +133,7 @@
 1	Isda	isda	NOUN	_	Number=Sing	0	root	_	_
 2	ang	ang	DET	_	Case=Abs|Definite=Def	3	det	_	_
 3	paborito	paborito	NOUN	_	Number=Sing	1	nsubj	_	_
-4	niya	ng	PRON	_	Case=Erg|Poss=Yes	3	nmod:poss	_	SpaceAfter=No
+4	niya	ng	PRON	_	Case=Erg|Poss=Yes|PronType=Prs	3	nmod:poss	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-64-6
@@ -228,7 +228,7 @@
 # text = Kailangan ko ang kuwalta.
 # text_en = I need the money.
 1	Kailangan	kailangan	VERB	_	Aspect=Hab	0	root	_	_
-2	ko	ko	PRON	_	Case=Erg|Number=Sing|Person=1	1	obj	_	_
+2	ko	ko	PRON	_	Case=Erg|Number=Sing|Person=1|PronType=Prs	1	obj	_	_
 3	ang	ang	DET	_	Case=Abs|Definite=Def	4	det	_	_
 4	kuwalta	kuwalta	NOUN	_	Number=Sing	1	nsubj	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
@@ -274,7 +274,7 @@
 6	nanay	nanay	NOUN	_	Number=Sing	1	nsubj	_	_
 7	noong	nang	SCONJ	_	_	8	mark	_	_
 8	dumating	dating	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	1	advcl	_	_
-9	ako	ang	PRON	_	Case=Abs|Number=Sing|Person=1	8	nsubj	_	SpaceAfter=No
+9	ako	ang	PRON	_	Case=Abs|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-67-3
@@ -311,7 +311,7 @@
 5	nanay	nanay	NOUN	_	Number=Sing	1	nsubj	_	_
 6	noong	nang	SCONJ	_	_	7	mark	_	_
 7	dumating	dating	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	1	advcl	_	_
-8	ako	ang	PRON	_	Case=Abs|Number=Sing|Person=1	7	nsubj	_	SpaceAfter=No
+8	ako	ang	PRON	_	Case=Abs|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-67-6
@@ -458,7 +458,7 @@
 # text = Binalikan niya ang Maynila.
 # text_en = He returned to Manila.
 1	Binalikan	balik	VERB	_	Aspect=Perf|Mood=Ind|Voice=Lfoc	0	root	_	_
-2	niya	ng	PRON	_	Case=Erg	1	obj:agent	_	_
+2	niya	ng	PRON	_	Case=Erg|PronType=Prs	1	obj:agent	_	_
 3	ang	ang	DET	_	Case=Abs|Definite=Def	4	det	_	_
 4	Maynila	Maynila	PROPN	_	_	1	nsubj:lfoc	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
@@ -467,7 +467,7 @@
 # text = Tinakasan niya ang bilangguan.
 # text_en = He escaped from the prison.
 1	Tinakasan	takas	VERB	_	Aspect=Perf|Mood=Ind|Voice=Lfoc	0	root	_	_
-2	niya	ng	PRON	_	Case=Erg	1	obj:agent	_	_
+2	niya	ng	PRON	_	Case=Erg|PronType=Prs	1	obj:agent	_	_
 3	ang	ang	DET	_	Case=Abs|Definite=Def	4	det	_	_
 4	bilangguan	bilangguan	NOUN	_	Number=Sing	1	nsubj:lfoc	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
@@ -507,6 +507,6 @@
 # text = Nakita kita.
 # text_en = I saw you.
 1	Nakita	kita	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	_
-2	kita	ang	PRON	_	Case=Abs|Number=Dual	1	nsubj:pass	_	SpaceAfter=No
+2	kita	ang	PRON	_	Case=Abs|Number=Dual|PronType=Prs	1	nsubj:pass	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 

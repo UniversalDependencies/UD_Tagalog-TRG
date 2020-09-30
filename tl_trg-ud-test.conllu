@@ -460,7 +460,7 @@
 1	Binalikan	balik	VERB	_	Aspect=Perf|Mood=Ind|Voice=Lfoc	0	root	_	Gloss=returned
 2	niya	siya	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	1	obj:agent	_	Gloss=he/she
 3	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	4	det	_	Gloss=the
-4	Maynila	Maynila	PROPN	_	_	1	nsubj:lfoc	_	Gloss=Manila|SpaceAfter=No
+4	Maynila	Maynila	PROPN	_	Number=Sing	1	nsubj:lfoc	_	Gloss=Manila|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-71-1

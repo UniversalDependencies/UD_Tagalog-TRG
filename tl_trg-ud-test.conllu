@@ -96,8 +96,8 @@
 # sent_id = schachter-otanes-64-1
 # text = Iyan ang bahay.
 # text_en = That's the house.
-1	Iyan	iyan	PRON	_	Number=Sing|PronType=Dem	0	root	_	Gloss=that
-2	ang	ang	DET	_	Definite=Def|PronType=Art	3	det	_	Gloss=the
+1	Iyan	iyan	PRON	_	Case=Abs|Deixis=Med|Number=Sing|PronType=Dem	0	root	_	Gloss=that
+2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
 3	bahay	bahay	NOUN	_	Number=Sing	1	obj	_	Gloss=house|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -476,7 +476,7 @@
 # text = Mansanas ito.
 # text_en = This is an apple.
 1	Mansanas	mansanas	NOUN	_	_	0	root	_	Gloss=apple
-2	ito	ito	PRON	_	Number=Sing|PronType=Dem	1	det	_	Gloss=this|SpaceAfter=No
+2	ito	ito	PRON	_	Case=Abs|Deixis=Prox|Number=Sing|PronType=Dem	1	det	_	Gloss=this|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-97-0

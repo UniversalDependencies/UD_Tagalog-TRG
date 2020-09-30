@@ -26,6 +26,7 @@ of California Press. isbn: 9780520017764.
     * Removed XPOS tags because they were uninformative (taken from the English Penn set).
     * Added the PronType=Prs feature to personal pronouns.
     * Added the PronType=Art feature to determiners.
+    * Added glosses in MISC.
 * 2018-03-14 v0.1
     * First release in UD
 

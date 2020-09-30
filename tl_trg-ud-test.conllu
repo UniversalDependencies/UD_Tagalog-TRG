@@ -39,7 +39,7 @@
 # text_en = The bus is coming now.
 1	Dumarating	dating	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=coming
 2	na	na	ADV	_	_	1	advmod	_	Gloss=now
-3	ang	ang	DET	_	Definite=Def|PronType=Art	4	det	_	Gloss=the
+3	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	4	det	_	Gloss=the
 4	bus	bus	NOUN	_	Foreign=Yes|Number=Sing	1	nsubj	_	Gloss=bus|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -79,7 +79,7 @@
 # text = Artista ang nagluto ng pagkain.
 # text_en = The one who cooked some food is an actress.
 1	Artista	artista	NOUN	_	Number=Sing	3	nsubj	_	Gloss=actress
-2	ang	ang	ADP	_	Case=Abs	1	case	_	Gloss=the
+2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	1	det	_	Gloss=the
 3	nagluto	luto	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=cooked
 4	ng	ng	PART	_	Case=Erg	5	case	_	_
 5	pagkain	pagkain	NOUN	_	Number=Coll	3	obj	_	Gloss=food|SpaceAfter=No
@@ -106,7 +106,7 @@
 # text_en = Juan's the youngest child.
 1	Si	ang	DET	_	Case=Abs|Number=Sing|PronType=Art	2	det	_	Gloss=the
 2	Juan	Juan	PROPN	_	Number=Sing	0	root	_	Gloss=Juan
-3	ang	ang	DET	_	Definite=Def|PronType=Art	4	det	_	Gloss=the
+3	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	4	det	_	Gloss=the
 4	bunso	bunso	NOUN	_	_	2	nsubj	_	Gloss=youngest|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -166,7 +166,7 @@
 # text = Mabuti ang panahon.
 # text_en = The weather is good.
 1	Mabuti	buti	ADJ	_	Degree=Pos	0	root	_	Gloss=good
-2	ang	ang	DET	_	Definite=Def|PronType=Art	3	det	_	Gloss=the
+2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
 3	panahon	panahon	NOUN	_	Number=Sing	1	nsubj	_	Gloss=weather|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -174,7 +174,7 @@
 # text = Matamis ang kendi.
 # text_en = The candy is sweet.
 1	Matamis	tamis	ADJ	_	Degree=Pos	0	root	_	Gloss=sweet
-2	ang	ang	DET	_	Definite=Def|PronType=Art	3	det	_	Gloss=the
+2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
 3	kendi	kendi	NOUN	_	Number=Sing	1	nsubj	_	Gloss=candy|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -182,7 +182,7 @@
 # text = Pagod ang bata.
 # text_en = The child is tired.
 1	Pagod	pagod	ADJ	_	Degree=Pos	0	root	_	Gloss=tired
-2	ang	ang	DET	_	Definite=Def|PronType=Art	3	det	_	Gloss=the
+2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
 3	bata	bata	NOUN	_	Number=Sing	1	nsubj	_	Gloss=child|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 

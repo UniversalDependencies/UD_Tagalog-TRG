@@ -107,7 +107,7 @@
 1	Si	ang	DET	_	Case=Abs|Number=Sing|PronType=Art	2	det	_	Gloss=the
 2	Juan	Juan	PROPN	_	Number=Sing	0	root	_	Gloss=Juan
 3	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	4	det	_	Gloss=the
-4	bunso	bunso	NOUN	_	_	2	nsubj	_	Gloss=youngest|SpaceAfter=No
+4	bunso	bunso	NOUN	_	Number=Sing	2	nsubj	_	Gloss=youngest|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = schachter-otanes-64-3
@@ -475,14 +475,14 @@
 # sent_id = schachter-otanes-95-10
 # text = Mansanas ito.
 # text_en = This is an apple.
-1	Mansanas	mansanas	NOUN	_	_	0	root	_	Gloss=apple
+1	Mansanas	mansanas	NOUN	_	Number=Sing	0	root	_	Gloss=apple
 2	ito	ito	PRON	_	Case=Abs|Deixis=Prox|Number=Sing|PronType=Dem	1	det	_	Gloss=this|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-97-0
 # text = Biyudo ang maestro.
 # text_en = The teacher is a widower.
-1	Biyudo	biyudo	NOUN	_	Gender=Masc	0	root	_	Gloss=widower
+1	Biyudo	biyudo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Gloss=widower
 2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
 3	maestro	maestro	NOUN	_	Gender=Masc	1	nsubj	_	Gloss=teacher|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
@@ -490,7 +490,7 @@
 # sent_id = schachter-otanes-97-1
 # text = Biyuda ang maestra.
 # text_en = The teacher is a widow.
-1	Biyuda	biyuda	NOUN	_	Gender=Fem	0	root	_	Gloss=widow
+1	Biyuda	biyuda	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Gloss=widow
 2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
 3	maestra	maestra	NOUN	_	Gender=Fem	1	nsubj	_	Gloss=teacher|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_

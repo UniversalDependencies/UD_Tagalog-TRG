@@ -25,6 +25,7 @@ of California Press. isbn: 9780520017764.
     * Instead of the Focus attribute in MISC, verbal inflection now has the Voice feature.
     * Removed XPOS tags because they were uninformative (taken from the English Penn set).
     * Added the PronType=Prs feature to personal pronouns.
+    * Added the PronType=Art feature to determiners.
 * 2018-03-14 v0.1
     * First release in UD
 
@@ -39,8 +40,8 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Samson, Stephanie
-Contributing: elsewhere
+Contributors: Samson, Stephanie; Zeman, Daniel; Tan, Mary Ann C.
+Contributing: here
 Contact: stephsamson@protonmail.ch
 ===============================================================================
 </pre>

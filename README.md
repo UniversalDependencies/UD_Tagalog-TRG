@@ -24,7 +24,7 @@ of California Press. isbn: 9780520017764.
     * Fixed a few validation errors.
     * Instead of the Focus attribute in MISC, verbal inflection now has the Voice feature.
     * Removed XPOS tags because they were uninformative (taken from the English Penn set).
-    * Added the PronType=Prs feature to personal pronouns.
+    * Added the PronType=Prs feature to personal pronouns (also added Number, Person and Clusivity where missing).
     * Added the PronType=Art feature to determiners.
     * Added glosses in MISC.
 * 2018-03-14 v0.1

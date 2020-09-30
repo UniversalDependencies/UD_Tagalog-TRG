@@ -20,7 +20,7 @@
 # text = Sinulat ko ang liham.
 # text_en = I wrote the letter.
 1	Sinulat	sulat	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=written
-2	ko	ng	PRON	_	Case=Erg|Number=Sing|Person=1|PronType=Prs	1	obj:agent	_	Gloss=I
+2	ko	ako	PRON	_	Case=Erg|Number=Sing|Person=1|PronType=Prs	1	obj:agent	_	Gloss=I
 3	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	4	det	_	Gloss=the
 4	liham	liham	NOUN	_	Number=Sing	1	nsubj:pass	_	Gloss=letter|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
@@ -29,7 +29,7 @@
 # text = Sinulatan ko ang titser.
 # text_en = I wrote to the teacher.
 1	Sinulatan	sulat	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=written
-2	ko	ng	PRON	_	Case=Erg|Number=Sing|Person=1|PronType=Prs	1	obj:agent	_	Gloss=I
+2	ko	ako	PRON	_	Case=Erg|Number=Sing|Person=1|PronType=Prs	1	obj:agent	_	Gloss=I
 3	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	4	det	_	Gloss=the
 4	titser	titser	NOUN	_	Number=Sing	1	nsubj:pass	_	Gloss=teacher|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
@@ -88,7 +88,7 @@
 # sent_id = schachter-otanes-64-0
 # text = Siya ang Amerikano.
 # text_en = He's the American.
-1	Siya	ang	PRON	_	Case=Abs|Number=Sing|Person=3|PronType=Prs	0	root	_	Gloss=he/she
+1	Siya	siya	PRON	_	Case=Abs|Number=Sing|Person=3|PronType=Prs	0	root	_	Gloss=he/she
 2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
 3	Amerikano	amerikano	NOUN	_	Number=Sing	1	nsubj	_	Gloss=American|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
@@ -96,7 +96,7 @@
 # sent_id = schachter-otanes-64-1
 # text = Iyan ang bahay.
 # text_en = That's the house.
-1	Iyan	ang	PRON	_	Number=Sing|PronType=Dem	0	root	_	Gloss=that
+1	Iyan	iyan	PRON	_	Number=Sing|PronType=Dem	0	root	_	Gloss=that
 2	ang	ang	DET	_	Definite=Def|PronType=Art	3	det	_	Gloss=the
 3	bahay	bahay	NOUN	_	Number=Sing	1	obj	_	Gloss=house|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
@@ -124,7 +124,7 @@
 1	Isda	isda	NOUN	_	Number=Sing	0	root	_	Gloss=fish
 2	ang	ang	DET	_	Case=Abs|Definite=Ind|PronType=Art	3	det	_	Gloss=the
 3	pagkain	pagkain	NOUN	_	Number=Sing	1	nsubj	_	Gloss=food
-4	niya	ng	PRON	_	Case=Erg|Poss=Yes|PronType=Prs	3	nmod:poss	_	Gloss=he/she|SpaceAfter=No
+4	niya	siya	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	Gloss=he/she|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-64-5
@@ -133,7 +133,7 @@
 1	Isda	isda	NOUN	_	Number=Sing	0	root	_	Gloss=fish
 2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
 3	paborito	paborito	NOUN	_	Number=Sing	1	nsubj	_	Gloss=favorite
-4	niya	ng	PRON	_	Case=Erg|Poss=Yes|PronType=Prs	3	nmod:poss	_	Gloss=he/she|SpaceAfter=No
+4	niya	siya	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	Gloss=he/she|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-64-6
@@ -228,7 +228,7 @@
 # text = Kailangan ko ang kuwalta.
 # text_en = I need the money.
 1	Kailangan	kailangan	VERB	_	Aspect=Hab	0	root	_	Gloss=necessary
-2	ko	ko	PRON	_	Case=Erg|Number=Sing|Person=1|PronType=Prs	1	obj	_	Gloss=I
+2	ko	ako	PRON	_	Case=Erg|Number=Sing|Person=1|PronType=Prs	1	obj	_	Gloss=I
 3	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	4	det	_	Gloss=the
 4	kuwalta	kuwalta	NOUN	_	Number=Sing	1	nsubj	_	Gloss=money|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
@@ -274,7 +274,7 @@
 6	nanay	nanay	NOUN	_	Number=Sing	1	nsubj	_	Gloss=mother
 7	noong	nang	SCONJ	_	_	8	mark	_	Gloss=when
 8	dumating	dating	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	1	advcl	_	Gloss=arrived
-9	ako	ang	PRON	_	Case=Abs|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	Gloss=I|SpaceAfter=No
+9	ako	ako	PRON	_	Case=Abs|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	Gloss=I|SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-67-3
@@ -311,7 +311,7 @@
 5	nanay	nanay	NOUN	_	Number=Sing	1	nsubj	_	Gloss=mother
 6	noong	nang	SCONJ	_	_	7	mark	_	Gloss=when
 7	dumating	dating	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	1	advcl	_	Gloss=arrived
-8	ako	ang	PRON	_	Case=Abs|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Gloss=I|SpaceAfter=No
+8	ako	ako	PRON	_	Case=Abs|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Gloss=I|SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-67-6
@@ -458,7 +458,7 @@
 # text = Binalikan niya ang Maynila.
 # text_en = He returned to Manila.
 1	Binalikan	balik	VERB	_	Aspect=Perf|Mood=Ind|Voice=Lfoc	0	root	_	Gloss=returned
-2	niya	ng	PRON	_	Case=Erg|PronType=Prs	1	obj:agent	_	Gloss=he/she
+2	niya	siya	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	1	obj:agent	_	Gloss=he/she
 3	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	4	det	_	Gloss=the
 4	Maynila	Maynila	PROPN	_	_	1	nsubj:lfoc	_	Gloss=Manila|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
@@ -467,7 +467,7 @@
 # text = Tinakasan niya ang bilangguan.
 # text_en = He escaped from the prison.
 1	Tinakasan	takas	VERB	_	Aspect=Perf|Mood=Ind|Voice=Lfoc	0	root	_	Gloss=escaped
-2	niya	ng	PRON	_	Case=Erg|PronType=Prs	1	obj:agent	_	Gloss=he/she
+2	niya	siya	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	1	obj:agent	_	Gloss=he/she
 3	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	4	det	_	Gloss=the
 4	bilangguan	bilangguan	NOUN	_	Number=Sing	1	nsubj:lfoc	_	Gloss=prison|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
@@ -476,7 +476,7 @@
 # text = Mansanas ito.
 # text_en = This is an apple.
 1	Mansanas	mansanas	NOUN	_	_	0	root	_	Gloss=apple
-2	ito	ang	PRON	_	Number=Sing|PronType=Dem	1	det	_	Gloss=this|SpaceAfter=No
+2	ito	ito	PRON	_	Number=Sing|PronType=Dem	1	det	_	Gloss=this|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-97-0
@@ -506,7 +506,7 @@
 # sent_id = devos-71-0
 # text = Nakita kita.
 # text_en = I saw you.
-1	Nakita	kita	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=you
-2	kita	ang	PRON	_	Case=Abs|Number=Dual|PronType=Prs	1	nsubj:pass	_	Gloss=I|SpaceAfter=No
+1	Nakita	kita	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=seen
+2	kita	ako	PRON	_	Case=Abs|Clusivity=In|Number=Dual|Person=1|PronType=Prs	1	nsubj:pass	_	Gloss=I|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 

@@ -122,7 +122,7 @@
 # text = Isda ang pagkain niya.
 # text_en = His meal is some fish.
 1	Isda	isda	NOUN	_	Number=Sing	0	root	_	Gloss=fish
-2	ang	ang	DET	_	Case=Abs|Definite=Ind|PronType=Art	3	det	_	Gloss=the
+2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
 3	pagkain	pagkain	NOUN	_	Number=Sing	1	nsubj	_	Gloss=food
 4	niya	siya	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	Gloss=he/she|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_

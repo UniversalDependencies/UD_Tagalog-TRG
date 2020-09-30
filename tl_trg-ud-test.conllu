@@ -81,7 +81,7 @@
 1	Artista	artista	NOUN	_	Number=Sing	3	nsubj	_	Gloss=actress
 2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	1	det	_	Gloss=the
 3	nagluto	luto	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=cooked
-4	ng	ng	PART	_	Case=Erg	5	case	_	_
+4	ng	ng	ADP	_	Case=Erg	5	case	_	_
 5	pagkain	pagkain	NOUN	_	Number=Coll	3	obj	_	Gloss=food|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 

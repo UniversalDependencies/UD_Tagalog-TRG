@@ -236,7 +236,7 @@
 # sent_id = schachter-otanes-65-10
 # text = Sa istudyante ang libro.
 # text_en = The book belongs to the student.
-1	Sa	sa	ADP	_	Case=Dat|Poss=Yes	2	nmod:poss	_	Gloss=to
+1	Sa	sa	ADP	_	Case=Dat	2	case	_	Gloss=to
 2	istudyante	istudyante	NOUN	_	Number=Sing	0	root	_	Gloss=student
 3	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	4	det	_	Gloss=the
 4	libro	libro	NOUN	_	Number=Sing	2	nsubj	_	Gloss=book|SpaceAfter=No

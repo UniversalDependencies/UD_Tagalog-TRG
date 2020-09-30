@@ -303,7 +303,7 @@
 
 # sent_id = schachter-otanes-67-5
 # text = Nagluluto ng pagkain ang nanay noong dumating ako.
-# text_en = Mother had cooked some food when I arrived.
+# text_en = Mother was cooking some food when I arrived.
 1	Nagluluto	luto	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=cooking
 2	ng	ng	ADP	_	Case=Erg	3	case	_	_
 3	pagkain	pagkain	NOUN	_	Number=Coll	1	obj	_	Gloss=food

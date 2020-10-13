@@ -392,11 +392,11 @@
 5	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.185a
-# text = Mabuti a ang ani?
+# text = Mabuti ba ang ani?
 # gloss = good Q TOP harvest
 # text_en = Is the harvest good?
 1	Mabuti	mabuti	ADJ	_	_	0	root	_	Gloss=good
-2	a	a	PART	_	PartType=Int	1	advmod	_	Gloss=QUESTION
+2	ba	ba	PART	_	PartType=Int	1	advmod	_	Gloss=QUESTION
 3	ang	ang	DET	_	Case=Nom|Definite=Def|PronType=Art	4	det	_	Gloss=the|MGloss=PIV
 4	ani	ani	NOUN	_	_	1	nsubj	_	Gloss=harvest|SpaceAfter=No
 5	?	?	PUNCT	_	_	1	punct	_	Gloss=?

@@ -510,3 +510,10 @@
 2	kita	ako	PRON	_	Case=Abs|Clusivity=In|Number=Dual|Person=1|PronType=Prs	1	nsubj:pass	_	Gloss=I|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = schachter-otanes-73-1
+# text = Kinain ang pagkain.
+# text_en = The food was eaten.
+1	Kinain	kain	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=ate
+2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
+3	pagkain	pagkain	NOUN	_	Number=Coll	1	nsubj	_	Gloss=food|SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_

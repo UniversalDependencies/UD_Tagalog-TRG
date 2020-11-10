@@ -4,7 +4,7 @@
 # text_en = They are teachers
 1	Mga	mga	DET	_	Number=Plur|PronType=Ind	2	det	_	Gloss=PLUR
 2	guro	guro	NOUN	_	_	0	root	_	Gloss=teacher
-3	sila	sila	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	Gloss=they|SpaceAfter=Yes
+3	sila	sila	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	Gloss=they|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	Gloss=.
 
 # sent_id = shopen-1.12
@@ -15,7 +15,7 @@
 2	sa	sa	ADP	_	Case=Dat	3	case	_	Gloss=to
 3	babae	babae	NOUN	_	_	1	obl	_	Gloss=woman
 4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the|MGloss=PIV
-5	bata	bata	NOUN	_	_	1	nsubj	_	Gloss=child|SpaceAfter=Yes
+5	bata	bata	NOUN	_	_	1	nsubj	_	Gloss=child|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.13
@@ -26,7 +26,7 @@
 2	kay	kay	ADP	_	Case=Dat	3	case	_	Gloss=to
 3	Maria	Maria	PROPN	_	Gender=Fem	1	obl	_	Gloss=Maria
 4	si	si	ADP	_	Case=Nom	5	case	_	Gloss=the
-5	Juan	Juan	PROPN	_	Gender=Masc	1	nsubj	_	Gloss=Juan|SpaceAfter=Yes
+5	Juan	Juan	PROPN	_	Gender=Masc	1	nsubj	_	Gloss=Juan|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.14
@@ -38,7 +38,7 @@
 3	Maynila	Maynila	PROPN	_	_	1	obl	_	Gloss=Manila
 4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the|MGloss=PIV
 5	Pasay	Pasay	PROPN	_	_	1	nsubj	_	Gloss=Pasay
-6	City	City	PROPN	_	_	5	flat	_	Gloss=City|SpaceAfter=Yes
+6	City	City	PROPN	_	_	5	flat	_	Gloss=City|SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.16a
@@ -50,7 +50,7 @@
 2	ko	ako	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	Gloss=me
 3	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the|MGloss=PIV
 4	mga	mga	DET	_	Number=Plur|PronType=Ind	5	det	_	Gloss=PLUR
-5	sumasayaw	sayaw	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	1	obj	_	Gloss=were-dancing|SpaceAfter=Yes
+5	sumasayaw	sayaw	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	1	obj	_	Gloss=were-dancing|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.16b
@@ -60,7 +60,7 @@
 1	Sumasayaw	sayaw	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=were-dancing
 2	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the|MGloss=PIV
 3	mga	mga	DET	_	Number=Plur|PronType=Ind	4	det	_	Gloss=PLUR
-4	tao	tao	NOUN	_	_	1	nsubj	_	Gloss=person|SpaceAfter=Yes
+4	tao	tao	NOUN	_	_	1	nsubj	_	Gloss=person|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.24
@@ -69,7 +69,7 @@
 # text_en = The man is working
 1	Nagtatrabaho	trabaho	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=working|MGloss=is.working
 2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the|MGloss=PIV
-3	lalaki	lalaki	NOUN	_	_	1	nsubj	_	Gloss=man|SpaceAfter=Yes
+3	lalaki	lalaki	NOUN	_	_	1	nsubj	_	Gloss=man|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.25
@@ -78,7 +78,7 @@
 # text_en = The one who is working is a man
 1	Lalaki	lalaki	NOUN	_	_	0	root	_	Gloss=man
 2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the|MGloss=PIV
-3	nagtatrabaho	trabaho	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	1	nsubj	_	Gloss=working|MGloss=is.working|SpaceAfter=Yes
+3	nagtatrabaho	trabaho	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	1	nsubj	_	Gloss=working|MGloss=is.working|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.55a
@@ -88,7 +88,7 @@
 1	Hindi	hindi	PART	_	Polarity=Neg	4	advmod	_	Gloss=not
 2	ko	ako	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Gloss=me
 3	siya	siya	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	obj	_	Gloss=he
-4	nakita	kita	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=saw|SpaceAfter=Yes
+4	nakita	kita	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=saw|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	Gloss=.
 
 # sent_id = shopen-1.55b
@@ -100,7 +100,7 @@
 3	ni	ni	ADP	_	Case=Gen	4	case	_	Gloss=DET
 4	Pedro	Pedro	PROPN	_	Gender=Masc	2	nsubj	_	Gloss=Pedro
 5	si	si	ADP	_	Case=Nom	6	case	_	Gloss=the
-6	Juan	Juan	PROPN	_	Gender=Masc	2	obj	_	Gloss=Juan|SpaceAfter=Yes
+6	Juan	Juan	PROPN	_	Gender=Masc	2	obj	_	Gloss=Juan|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	Gloss=.
 
 # sent_id = shopen-1.63
@@ -112,7 +112,7 @@
 3	John	John	PROPN	_	Gender=Masc	1	nsubj	_	Gloss=John
 4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the|MGloss=PIV
 5	sarili	sarili	PRON	_	PronType=Prs|Reflex=Yes	1	obj	_	Gloss=self
-6	niya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	nmod	_	Gloss=him|SpaceAfter=Yes
+6	niya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	nmod	_	Gloss=him|SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.64
@@ -124,7 +124,7 @@
 3	John	John	PROPN	_	Gender=Masc	1	nsubj	_	Gloss=John
 4	mismo	mismo	DET	_	Gender=Masc|PronType=Emp	3	nmod	_	Gloss=EMPH
 5	si	si	ADP	_	Case=Nom	6	case	_	Gloss=the
-6	Bill	Bill	PROPN	_	Gender=Masc	1	obj	_	Gloss=Bill|SpaceAfter=Yes
+6	Bill	Bill	PROPN	_	Gender=Masc	1	obj	_	Gloss=Bill|SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.84
@@ -151,14 +151,14 @@
 # text = Oo.
 # gloss = yes
 # text_en = Yes
-1	Oo	oo	INTJ	_	Polarity=Pos	0	root	_	Gloss=yes|SpaceAfter=Yes
+1	Oo	oo	INTJ	_	Polarity=Pos	0	root	_	Gloss=yes|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.89c
 # text = Hindi.
 # gloss = no
 # text_en = No
-1	Hindi	hindi	INTJ	_	Polarity=Pos	0	root	_	Gloss=no|SpaceAfter=Yes
+1	Hindi	hindi	INTJ	_	Polarity=Pos	0	root	_	Gloss=no|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.90a
@@ -174,14 +174,14 @@
 # text = Mayroon.
 # gloss = EXIST
 # text_en = Yes (answer to existential questions)
-1	Mayroon	mayroon	VERB	_	Polarity=Pos	0	root	_	Gloss=exists|SpaceAfter=Yes
+1	Mayroon	mayroon	VERB	_	Polarity=Pos	0	root	_	Gloss=exists|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.90c
 # text = Wala.
 # gloss = NEG-EXIST
 # text_en = No (answer to existential questions)
-1	Wala	wala	VERB	_	Polarity=Neg	0	root	_	Gloss=does-not-exist|SpaceAfter=Yes
+1	Wala	wala	VERB	_	Polarity=Neg	0	root	_	Gloss=does-not-exist|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.92
@@ -208,7 +208,7 @@
 # gloss = very.tall they
 # text_en = They are very tall
 1	Napakataas	taas	ADJ	_	Degree=Pos	0	root	_	Gloss=very-tall|MSeg=napaka-taas|MGloss=very-tall
-2	nila	sila	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	Gloss=them|SpaceAfter=Yes
+2	nila	sila	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	Gloss=them|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.98c
@@ -225,7 +225,7 @@
 # gloss = (PERF.ACTIVE)speak you
 # text_en = You spoke
 1	Nagsalita	salita	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=spoke|MSeg=nag-salita|MGloss=PERF+ACTIVE-speak
-2	ka	ikaw	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	Gloss=you|SpaceAfter=Yes
+2	ka	ikaw	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	Gloss=you|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.98e
@@ -242,7 +242,7 @@
 # gloss = (PERF.INVOL)trip you
 # text_en = You tripped
 1	Natalisod	tisod	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=tripped|MSeg=na-talisod|MGloss=PERF+INVOL-trip
-2	ka	ikaw	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	Gloss=you|SpaceAfter=Yes
+2	ka	ikaw	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	Gloss=you|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.100
@@ -257,7 +257,7 @@
 6	kay	kay	ADP	_	Case=Dat	7	case	_	Gloss=to
 7	Mary	Mary	PROPN	_	Gender=Fem	1	obl	_	Gloss=Mary
 8	ang	ang	ADP	_	Case=Nom	9	case	_	Gloss=the|MGloss=PIV
-9	makinilya	makinilya	NOUN	_	_	1	nsubj:ifoc	_	Gloss=typewriter|SpaceAfter=Yes
+9	makinilya	makinilya	NOUN	_	_	1	nsubj:ifoc	_	Gloss=typewriter|SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.109
@@ -278,7 +278,7 @@
 2	ko	ako	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	Gloss=me
 3	kung	kung	SCONJ	_	_	4	mark	_	Gloss=that
 4	nasaan	nasaan	ADV	_	PronType=Int	1	ccomp	_	Gloss=where
-5	sila	sila	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	Gloss=they|SpaceAfter=Yes
+5	sila	sila	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	Gloss=they|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.164a
@@ -289,7 +289,7 @@
 2	daw	daw	PART	_	PartType=Nfh	1	advmod	_	Gloss=they-say
 3	si	si	ADP	_	Case=Nom	4	case	_	Gloss=the
 4	Pedro	Pedro	PROPN	_	Gender=Masc	1	nsubj	_	Gloss=Pedro
-5	bukas	bukas	ADV	_	_	1	advmod	_	Gloss=tomorrow|SpaceAfter=Yes
+5	bukas	bukas	ADV	_	_	1	advmod	_	Gloss=tomorrow|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.164b
@@ -301,7 +301,7 @@
 3	darating	dating	VERB	_	Aspect=Prog|Mood=Ind|Voice=Act	0	root	_	Gloss=will-arrive
 4	si	si	ADP	_	Case=Nom	5	case	_	Gloss=the
 5	Pedro	Pedro	PROPN	_	Gender=Masc	3	nsubj	_	Gloss=Pedro
-6	bukas	bukas	ADV	_	_	3	advmod	_	Gloss=tomorrow|SpaceAfter=Yes
+6	bukas	bukas	ADV	_	_	3	advmod	_	Gloss=tomorrow|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	Gloss=.
 
 # sent_id = shopen-1.164c
@@ -351,7 +351,7 @@
 4	lamang	lamang	ADV	_	_	7	advmod	_	Gloss=just
 5	tuloy	tuloy	ADV	_	_	7	advmod	_	Gloss=as-a-result
 6	siya	siya	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	Gloss=he
-7	nakakapagalmusal	almusal	VERB	_	Aspect=Imp|Mood=Pot|Voice=Act	0	root	_	Gloss=can-have-breakfast|SpaceAfter=Yes
+7	nakakapagalmusal	almusal	VERB	_	Aspect=Imp|Mood=Pot|Voice=Act	0	root	_	Gloss=can-have-breakfast|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	Gloss=.
 
 # sent_id = shopen-1.183a
@@ -361,7 +361,7 @@
 1	Mayroong	mayroon	VERB	_	Link=Yes|Polarity=Pos	0	root	_	Gloss=there-is|MSeg=mayroon-g|MGloss=exists-POSSESSIVE
 2	libro	libro	NOUN	_	_	1	obj	_	Gloss=book
 3	sa	sa	ADP	_	Case=Dat	4	case	_	Gloss=to
-4	mesa	mesa	NOUN	_	_	1	obl	_	Gloss=table|SpaceAfter=Yes
+4	mesa	mesa	NOUN	_	_	1	obl	_	Gloss=table|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.183b
@@ -371,7 +371,7 @@
 1	Walang	wala	VERB	_	Link=Yes|Polarity=Neg	0	root	_	Gloss=there-is-not|MSeg=wala-ng|MGloss=does+not+exist-POSSESSIVE
 2	libro	libro	NOUN	_	_	1	obj	_	Gloss=book
 3	sa	sa	ADP	_	Case=Dat	4	case	_	Gloss=to
-4	mesa	mesa	NOUN	_	_	1	obl	_	Gloss=table|SpaceAfter=Yes
+4	mesa	mesa	NOUN	_	_	1	obl	_	Gloss=table|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.183c
@@ -381,7 +381,7 @@
 1	Mayroong	mayroon	VERB	_	Link=Yes|Polarity=Pos	0	root	_	Gloss=there-is|MSeg=mayroon-g|MGloss=exists-POSSESSIVE
 2	libro	libro	NOUN	_	_	1	obj	_	Gloss=book
 3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the|MGloss=PIV
-4	bata	bata	NOUN	_	_	1	nsubj	_	Gloss=child|SpaceAfter=Yes
+4	bata	bata	NOUN	_	_	1	nsubj	_	Gloss=child|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.183d
@@ -391,7 +391,7 @@
 1	Walang	wala	VERB	_	Link=Yes|Polarity=Neg	0	root	_	Gloss=there-is-not|MSeg=wala-ng|MGloss=does+not+exist-POSSESSIVE
 2	libro	libro	NOUN	_	_	1	obj	_	Gloss=book
 3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the|MGloss=PIV
-4	bata	bata	NOUN	_	_	1	nsubj	_	Gloss=child|SpaceAfter=Yes
+4	bata	bata	NOUN	_	_	1	nsubj	_	Gloss=child|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.185a
@@ -422,7 +422,7 @@
 1	Mabuti	mabuti	ADJ	_	Degree=Pos	0	root	_	Gloss=good
 2	sana	sana	PART	_	PartType=Des	1	advmod	_	Gloss=WISH
 3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the|MGloss=PIV
-4	ani	ani	NOUN	_	_	1	nsubj	_	Gloss=harvest|SpaceAfter=Yes
+4	ani	ani	NOUN	_	_	1	nsubj	_	Gloss=harvest|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-1.186a
@@ -431,7 +431,7 @@
 # text_en = Don't leave
 1	Huwag	huwag	AUX	_	Mood=Imp|Polarity=Neg	3	aux	_	Gloss=do-not
 2	kayong	kayo	PRON	_	Case=Nom|Link=Yes|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	Gloss=you|MSeg=kayo-ng|MGloss=you-LINK
-3	umalis	alis	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=leave|SpaceAfter=Yes
+3	umalis	alis	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=leave|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	Gloss=.
 
 # sent_id = shopen-1.186b
@@ -440,7 +440,7 @@
 # text_en = He shouldn't come here
 1	Huwag	huwag	AUX	_	Mood=Imp|Polarity=Neg	3	aux	_	Gloss=do-not
 2	siyang	siya	PRON	_	Case=Nom|Link=Yes|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Gloss=he|MSeg=siya-ng|MGloss=he-LINK
-3	pumarito	parito	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=come-here|SpaceAfter=Yes
+3	pumarito	parito	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=come-here|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	Gloss=.
 
 # sent_id = shopen-3.111a
@@ -458,7 +458,7 @@
 7	sako	sako	NOUN	_	_	1	obl	_	Gloss=sack
 8	para	para	ADP	_	_	10	case	_	Gloss=for
 9	sa	sa	ADP	_	Case=Dat	10	case	_	Gloss=to
-10	bata	bata	NOUN	_	_	1	obl	_	Gloss=child|SpaceAfter=Yes
+10	bata	bata	NOUN	_	_	1	obl	_	Gloss=child|SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.111b
@@ -475,7 +475,7 @@
 7	sako	sako	NOUN	_	_	1	obl	_	Gloss=sack
 8	para	para	ADP	_	_	10	case	_	Gloss=for
 9	sa	sa	ADP	_	Case=Dat	10	case	_	Gloss=to
-10	bata	bata	NOUN	_	_	1	obl	_	Gloss=child|SpaceAfter=Yes
+10	bata	bata	NOUN	_	_	1	obl	_	Gloss=child|SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.111c
@@ -492,7 +492,7 @@
 7	sako	sako	NOUN	_	_	1	nsubj:lfoc	_	Gloss=sack
 8	para	para	ADP	_	_	10	case	_	Gloss=for
 9	sa	sa	ADP	_	Case=Dat	10	case	_	Gloss=to
-10	bata	bata	NOUN	_	_	1	obl	_	Gloss=child|SpaceAfter=Yes
+10	bata	bata	NOUN	_	_	1	obl	_	Gloss=child|SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.111d
@@ -508,7 +508,7 @@
 6	sa	sa	ADP	_	Case=Dat	7	case	_	Gloss=to
 7	sako	sako	NOUN	_	_	1	obl	_	Gloss=sack
 8	ang	ang	ADP	_	Case=Nom	9	case	_	Gloss=the|MGloss=PIV
-9	bata	bata	NOUN	_	_	1	nsubj:bfoc	_	Gloss=child|SpaceAfter=Yes
+9	bata	bata	NOUN	_	_	1	nsubj:bfoc	_	Gloss=child|SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.112a
@@ -520,7 +520,7 @@
 3	lalaking	lalaki	NOUN	_	Link=Yes	1	nsubj	_	Gloss=man|MSeg=lalaki-ng|man-LINK
 4	bumasa	basa	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	3	acl:relcl	_	Gloss=read|MSeg=b[um]asa|MGloss=[AP]-read
 5	ng	ng	ADP	_	Case=Gen	6	case	_	Gloss=DET
-6	diyaryo	diyaryo	NOUN	_	_	4	obj	_	Gloss=newspaper|SpaceAfter=Yes
+6	diyaryo	diyaryo	NOUN	_	_	4	obj	_	Gloss=newspaper|SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.112b
@@ -532,7 +532,7 @@
 3	diyaryong	diyaryo	NOUN	_	Link=Yes	1	nsubj	_	Gloss=newspaper|MSeg=diyaryo-ng|MGloss=newspaper-LINK
 4	binasa	basa	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	3	acl:relcl	_	Gloss=be-read|MSeg=b[in]asa-0|MGloss=[PERF]-read-OP
 5	ng	ng	ADP	_	Case=Gen	6	case	_	Gloss=DET
-6	lalaki	lalaki	NOUN	_	_	4	obj	_	Gloss=man|SpaceAfter=Yes
+6	lalaki	lalaki	NOUN	_	_	4	obj	_	Gloss=man|SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.114a
@@ -547,7 +547,7 @@
 5	bata	bata	NOUN	_	_	1	nsubj	_	Gloss=child
 6	ng	ng	ADP	_	Case=Gen	8	case	_	Gloss=DET
 7	mga	mga	DET	_	Number=Plur|PronType=Ind	8	det	_	Gloss=PLUR
-8	liham	liham	NOUN	_	_	1	obj	_	Gloss=letter|SpaceAfter=Yes
+8	liham	liham	NOUN	_	_	1	obj	_	Gloss=letter|SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.114b
@@ -562,7 +562,7 @@
 5	bata	bata	NOUN	_	_	1	obj:agent	_	Gloss=child
 6	ang	ang	ADP	_	Case=Nom	8	case	_	Gloss=the|MGloss=PIV
 7	mga	mga	DET	_	Number=Plur|PronType=Ind	8	det	_	Gloss=PLUR
-8	liham	liham	NOUN	_	_	1	nsubj:pass	_	Gloss=letter|SpaceAfter=Yes
+8	liham	liham	NOUN	_	_	1	nsubj:pass	_	Gloss=letter|SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.115a
@@ -575,7 +575,7 @@
 3	lolo	lolo	NOUN	_	_	1	nsubj	_	Gloss=grandfather
 4	sa	sa	ADP	_	Case=Dat	6	case	_	Gloss=to
 5	kaniyang	siya	PRON	_	Case=Dat|Link=Yes|Number=Sing|Person=3|PronType=Prs	6	nmod	_	Gloss=him|MSeg=kaniya-ng|MGloss=his-LINK
-6	sarili	sarili	PRON	_	PronType=Prs|Reflex=Yes	1	obl	_	Gloss=self|SpaceAfter=Yes
+6	sarili	sarili	PRON	_	PronType=Prs|Reflex=Yes	1	obl	_	Gloss=self|SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.115b
@@ -588,7 +588,7 @@
 3	lolo	lolo	NOUN	_	_	1	obj:agent	_	Gloss=grandfather
 4	ang	ang	ADP	_	Case=Nom	6	case	_	Gloss=the|MGloss=PIV
 5	kaniyang	siya	PRON	_	Case=Dat|Link=Yes|Number=Sing|Person=3|PronType=Prs	6	nmod	_	Gloss=him|MSeg=kaniya-ng|MGloss=his-LINK
-6	sarili	sarili	PRON	_	PronType=Prs|Reflex=Yes	1	nsubj	_	Gloss=self|SpaceAfter=Yes
+6	sarili	sarili	PRON	_	PronType=Prs|Reflex=Yes	1	nsubj	_	Gloss=self|SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.117a
@@ -602,7 +602,7 @@
 5	ang	ang	ADP	_	Case=Nom	7	case	_	Gloss=the|MGloss=PIV
 6	kaniyang	siya	PRON	_	Case=Dat|Link=Yes|Number=Sing|Person=3|PronType=Prs	7	nmod	_	Gloss=him|MSeg=kaniya-ng|MGloss=his-LINK
 7	sariling	sarili	PRON	_	Link=Yes|PronType=Prs|Reflex=Yes	8	nmod	_	Gloss=self|MSeg=sarili-ng|MGloss=self-LINK
-8	larawan	larawan	NOUN	_	_	1	nsubj:pass	_	Gloss=picture|SpaceAfter=Yes
+8	larawan	larawan	NOUN	_	_	1	nsubj:pass	_	Gloss=picture|SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.117b
@@ -619,7 +619,7 @@
 8	bata	bata	NOUN	_	_	1	obl	_	Gloss=child
 9	sa	sa	ADP	_	Case=Dat	11	case	_	Gloss=from
 10	kaniyang	siya	PRON	_	Case=Dat|Link=Yes|Number=Sing|Person=3|PronType=Prs	11	nmod	_	Gloss=him|MSeg=kaniya-ng|MGloss=his-LINK
-11	sarili	sarili	PRON	_	PronType=Prs|Reflex=Yes	1	obl	_	Gloss=self|SpaceAfter=Yes
+11	sarili	sarili	PRON	_	PronType=Prs|Reflex=Yes	1	obl	_	Gloss=self|SpaceAfter=No
 12	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.118a
@@ -632,7 +632,7 @@
 3	sa	sa	ADP	_	Case=Dat	4	case	_	Gloss=to|MGloss=DIR
 4	kaniya	siya	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	1	obl	_	Gloss=him
 5	ng	ng	ADP	_	Case=Gen	6	case	_	Gloss=DET
-6	kape	kape	NOUN	_	_	1	obj	_	Gloss=coffee|SpaceAfter=Yes
+6	kape	kape	NOUN	_	_	1	obj	_	Gloss=coffee|SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.118b
@@ -644,7 +644,7 @@
 2	mo	ikaw	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	1	obj:agent	_	Gloss=you|MGloss=you(ACT)
 3	siya	siya	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	nsubj:lfoc	_	Gloss=he|MGloss=him(PIV)
 4	ng	ng	ADP	_	Case=Gen	5	case	_	Gloss=DET
-5	kape	kape	NOUN	_	_	1	iobj:patient	_	Gloss=coffee|SpaceAfter=Yes
+5	kape	kape	NOUN	_	_	1	iobj:patient	_	Gloss=coffee|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.119a
@@ -655,7 +655,7 @@
 1	Walisan	walis	VERB	_	Mood=Imp|Voice=Pass	0	root	_	Gloss=sweep|MSeg=walis-an|MGloss=sweep-OP
 2	natin	ako	PRON	_	Case=Gen|Clusivity=In|Number=Plur|Person=1|PronType=Prs	1	obj:agent	_	Gloss=us|MGloss=us(DU.ACT)
 3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the|MGloss=PIV
-4	sahig	sahig	NOUN	_	_	1	nsubj:pass	_	Gloss=floor|SpaceAfter=Yes
+4	sahig	sahig	NOUN	_	_	1	nsubj:pass	_	Gloss=floor|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.119b
@@ -666,7 +666,7 @@
 1	Walisan	walis	VERB	_	Mood=Imp|Voice=Pass	0	root	_	Gloss=sweep|MSeg=walis-an|MGloss=sweep-OP
 2	nila	sila	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	1	obj:agent	_	Gloss=them|MGloss=they(ACT)
 3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the|MGloss=PIV
-4	sahig	sahig	NOUN	_	_	1	nsubj:pass	_	Gloss=floor|SpaceAfter=Yes
+4	sahig	sahig	NOUN	_	_	1	nsubj:pass	_	Gloss=floor|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.120a
@@ -680,7 +680,7 @@
 4	ng	ng	ADP	_	Case=Gen	5	case	_	Gloss=DET|MGloss=OBJ
 5	pera	pera	NOUN	_	_	3	obj	_	Gloss=money
 6	sa	sa	ADP	_	Case=Dat	7	case	_	Gloss=to|MGloss=DIR
-7	banko	banko	NOUN	_	_	3	obl	_	Gloss=bank|SpaceAfter=Yes
+7	banko	banko	NOUN	_	_	3	obl	_	Gloss=bank|SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.120b
@@ -694,7 +694,7 @@
 4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the|MGloss=PIV
 5	pera	pera	NOUN	_	_	3	nsubj:pass	_	Gloss=money
 6	sa	sa	ADP	_	Case=Dat	7	case	_	Gloss=to|MGloss=DIR
-7	banko	banko	NOUN	_	_	3	obl	_	Gloss=bank|SpaceAfter=Yes
+7	banko	banko	NOUN	_	_	3	obl	_	Gloss=bank|SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.121a
@@ -711,7 +711,7 @@
 4	suriin	suri	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	1	ccomp	_	Gloss=examine|MSeg=suri-in|MGloss=examine-OP
 5	siya	siya	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	Gloss=he|MGloss=he(PIV)
 6	ng	ng	ADP	_	Case=Gen	7	case	_	Gloss=DET|MGloss=ACT
-7	doktor	doktor	NOUN	_	_	4	obj:agent	_	Gloss=doctor|SpaceAfter=Yes
+7	doktor	doktor	NOUN	_	_	4	obj:agent	_	Gloss=doctor|SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.122a
@@ -720,7 +720,7 @@
 # text_en = It is disagreeable to become old
 1	Masagwa	masagwa	ADJ	_	Degree=Pos	0	root	_	Gloss=disagreeable
 2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the|MGloss=PIV
-3	tumatanda	tatanda	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	1	csubj	_	Gloss=to-become-old|MGloss=[AP]-IMPERF-become-old|MSeg=t[um]a-tanda|SpaceAfter=Yes
+3	tumatanda	tatanda	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	1	csubj	_	Gloss=to-become-old|MGloss=[AP]-IMPERF-become-old|MSeg=t[um]a-tanda|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.122b
@@ -729,7 +729,7 @@
 # text_en = She wants to become beautiful
 1	Gusto	gusto	VERB	_	Aspect=Hab|Voice=Pass	0	root	_	Gloss=want
 2	niyang	siya	PRON	_	Case=Gen|Link=Yes|Number=Sing|Person=3|PronType=Prs	1	obj:agent	_	Gloss=him|MSeg=niya-ng|MGloss=he/she(ACT)-LINK
-3	gumanda	ganda	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	1	xcomp	_	Gloss=become-beautiful|MGloss=[AP]-beautiful|MSeg=g[um]anda|SpaceAfter=Yes
+3	gumanda	ganda	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	1	xcomp	_	Gloss=become-beautiful|MGloss=[AP]-beautiful|MSeg=g[um]anda|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.122c
@@ -740,7 +740,7 @@
 2	kong	ako	PRON	_	Case=Gen|Link=Yes|Number=Sing|Person=1|PronType=Prs	1	obj:agent	_	Gloss=me|MSeg=ko-ng|MGloss=I(ACT)-LINK
 3	tumanggap	tanggap	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	1	xcomp	_	Gloss=received|MSeg=t[um]anggap|MGloss=[AP]-receive
 4	ng	ng	ADP	_	Case=Gen	5	case	_	Gloss=DET|MGloss=OBJ
-5	gantimpala	gantimpala	NOUN	_	_	3	obj	_	Gloss=prize|SpaceAfter=Yes
+5	gantimpala	gantimpala	NOUN	_	_	3	obj	_	Gloss=prize|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.122d
@@ -751,7 +751,7 @@
 2	kong	ako	PRON	_	Case=Gen|Link=Yes|Number=Sing|Person=1|PronType=Prs	1	obj:agent	_	Gloss=me|MSeg=ko-ng|MGloss=I(ACT)-LINK
 3	matanggap	tanggap	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	1	xcomp	_	Gloss=received|MSeg=ma-tanggap|MGloss=OP-receive
 4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the|MGloss=PIV
-5	gantimpala	gantimpala	NOUN	_	_	3	nsubj:pass	_	Gloss=prize|SpaceAfter=Yes
+5	gantimpala	gantimpala	NOUN	_	_	3	nsubj:pass	_	Gloss=prize|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.123
@@ -762,7 +762,7 @@
 2	kong	ako	PRON	_	Case=Gen|Link=Yes|Number=Sing|Person=1|PronType=Prs	1	obj:agent	_	Gloss=me|MSeg=ko-ng|MGloss=I(ACT)-LINK
 3	mamatay	patay	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	1	xcomp	_	Gloss=die|MSeg=ma-matay|MGloss=AP-die
 4	sa	sa	ADP	_	Case=Dat	5	case	_	Gloss=to|MGloss=DIR
-5	Maynila	Maynila	PROPN	_	_	3	obl	_	Gloss=Manila|SpaceAfter=Yes
+5	Maynila	Maynila	PROPN	_	_	3	obl	_	Gloss=Manila|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.124a
@@ -775,7 +775,7 @@
 4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the|MGloss=PIV
 5	hari	hari	NOUN	_	_	1	nsubj:pass	_	Gloss=king
 6	nang	nang	SCONJ	_	_	7	mark	_	Gloss=while|MGloss=ADV
-7	nagiisa	iisa	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	1	advcl	_	Gloss=being-alone|MGloss=AP.IMPERF-one|MSeg=nag-iisa|SpaceAfter=Yes
+7	nagiisa	iisa	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	1	advcl	_	Gloss=being-alone|MGloss=AP.IMPERF-one|MSeg=nag-iisa|SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.124b
@@ -788,7 +788,7 @@
 4	sa	sa	ADP	_	Case=Dat	5	case	_	Gloss=to|MGloss=DAT
 5	hari	hari	NOUN	_	_	1	obl	_	Gloss=king
 6	nang	nang	SCONJ	_	_	7	mark	_	Gloss=while|MGloss=ADV
-7	nagiisa	iisa	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	1	advcl	_	Gloss=being-alone|MGloss=AP.IMPERF-one|MSeg=nag-iisa|SpaceAfter=Yes
+7	nagiisa	iisa	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	1	advcl	_	Gloss=being-alone|MGloss=AP.IMPERF-one|MSeg=nag-iisa|SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.124c
@@ -803,7 +803,7 @@
 6	nang	nang	SCONJ	_	_	7	mark	_	Gloss=while|MGloss=ADV
 7	pumapasok	pasok	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	1	advcl	_	Gloss=entering|MSeg=p[um]a-pasok|MGloss=[AP]-IMPERF-enter
 8	sa	sa	ADP	_	Case=Dat	9	case	_	Gloss=to|MGloss=DAT
-9	banko	banko	NOUN	_	_	7	obl	_	Gloss=bank|SpaceAfter=Yes
+9	banko	banko	NOUN	_	_	7	obl	_	Gloss=bank|SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
 # sent_id = shopen-3.124d
@@ -818,6 +818,6 @@
 6	nang	nang	SCONJ	_	_	7	mark	_	Gloss=while|MGloss=ADV
 7	pumapasok	pasok	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	1	advcl	_	Gloss=entering|MSeg=p[um]a-pasok|MGloss=[AP]-IMPERF-enter
 8	sa	sa	ADP	_	Case=Dat	9	case	_	Gloss=to|MGloss=DAT
-9	banko	banko	NOUN	_	_	7	obl	_	Gloss=bank|SpaceAfter=Yes
+9	banko	banko	NOUN	_	_	7	obl	_	Gloss=bank|SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 

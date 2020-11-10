@@ -45,14 +45,16 @@
     - a. **Sing**
     - b. **Plur**
     - c. **Dual** - i.e. *kita*(?)
-    - d. (?) **Coll** - Collective i.e. *kababaihan*, *pagkain* ... purely semantic value, and it would be the only case when Number would be used with nouns, so perhaps it can be removed
+    - d. (?) **Coll** - Collective i.e. *kababaihan*, *pagkain* ... purely semantic value, and it would be the only case when Number would be used with nouns, so perhaps it can be removed (so far it was used with four nouns: _alon, gulayan, ingay, pagkain_)
 
 9. Person (PRON)
     - a. **1**
     - b. **2**
     - c. **3**
 
-10. Poss? (ADP, PRON) ... probably not useful
+10. Clusivity (PRON)
+    - a. **In**
+    - b. **Ex**
 
 11. PronType (PRON)
     - a. **Dem** - Demonstrative
@@ -60,3 +62,63 @@
 
 12. VerbForm? (VERB) ... Tagalog does not seem to distinguish finite and non-finite forms, so this feature is probably not useful
     - a. **Inf** - Infinitive
+
+#### Features by part of speech
+
+* Optional features that are allowed with any part of speech
+  * Foreign=Yes ... so far attested with NOUN
+
+* NOUN, PROPN
+  * Gender ... optional, occurs with loanwords from Spanish
+  * removed: Number ... in previous release it was either Sing or Coll
+  * Link=Yes ... used in Dan's annotation from Shopen, but maybe the linkers should be separated as syntactic words (according to documentation, this is done in Ugnayan)
+
+* PRON
+  * PronType ... mandatory, currently Prs or Dem
+  * Person ... mandatory if PronType=Prs, values 1, 2, 3
+  * Number ... mandatory if PronType=Prs (should it be allowed for demonstratives?), values Sing, Plur, Dual?
+  * Clusivity ... mandatory if PronType=Prs, Person=1, Number=Plur or Dual
+  * Deixis ... mandatory if PronType=Dem?
+  * Case ... mandatory, values Nom, Gen, Dat
+  * Link=Yes ... used in Dan's annotation from Shopen, but maybe the linkers should be separated as syntactic words (according to documentation, this is done in Ugnayan)
+
+* DET ... will we use DET at all?
+
+* ADJ
+  * Degree ... mandatory, values Pos or Sup (the comparative is analytical, so it does not have a feature value)
+  * Gender ... optional, occurs with loanwords from Spanish
+
+* NUM
+  * NumType=Card? ... there are no cardinal numerals in the current data
+
+* AUX ... will we use AUX at all? So far used for _huwag_ and _may_ but it is not clear whether they should be considered auxiliaries.
+
+* VERB
+  * Voice ... mandatory unless Aspect=Hab, values currently Act, Pass, Lfoc, Bfoc
+  * Aspect ... mandatory, values currently Hab, Imp, Perf, Prosp
+  * Mood ... mandatory unless Aspect=Hab, only Ind occurs in the current data
+
+* ADV
+  * PronType ... optional, values Dem, Int
+
+* ADP
+  * Case ... lexical feature, mandatory at least for _ang, si, ng, ni, sa, kay_
+
+* SCONJ ... the relativizer _nang_, no features
+
+* CCONJ ... currently does not occur in the data
+
+* PART
+  * Polarity=Neg mandatory for _hindi_
+  * PartType=Int mandatory for _ano, ba, kaya_
+  * PartType=Des mandatory for _sana_
+  * what about _daw_?
+
+* INTJ
+  * Polarity ... optional, used for response words (_oo_ Pos, _hindi_ Neg)
+
+* SYM ... currently does not occur in the data
+
+* PUNCT ... no features
+
+* X ... no features

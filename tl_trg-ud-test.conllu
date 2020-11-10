@@ -2,326 +2,326 @@
 # text = Gumising ang bata.
 # text_en = The child awoke.
 1	Gumising	gising	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=awakened
-2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
-3	bata	bata	NOUN	_	Number=Sing	1	nsubj	_	Gloss=child|SpaceAfter=No
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
+3	bata	bata	NOUN	_	_	1	nsubj	_	Gloss=child|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-60-1
 # text = Ginising ng ingay ang bata.
 # text_en = A noise awakened the child.
 1	Ginising	gising	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=awakened
-2	ng	ng	ADP	_	Case=Erg	3	case	_	_
-3	ingay	ingay	NOUN	_	Number=Coll	1	obj:agent	_	Gloss=noise
-4	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	5	det	_	Gloss=the
-5	bata	bata	NOUN	_	Number=Sing	1	nsubj:pass	_	Gloss=child|SpaceAfter=No
+2	ng	ng	ADP	_	Case=Gen	3	case	_	_
+3	ingay	ingay	NOUN	_	_	1	obj:agent	_	Gloss=noise
+4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
+5	bata	bata	NOUN	_	_	1	nsubj:pass	_	Gloss=child|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-60-2
 # text = Sinulat ko ang liham.
 # text_en = I wrote the letter.
 1	Sinulat	sulat	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=written
-2	ko	ako	PRON	_	Case=Erg|Number=Sing|Person=1|PronType=Prs	1	obj:agent	_	Gloss=I
-3	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	4	det	_	Gloss=the
-4	liham	liham	NOUN	_	Number=Sing	1	nsubj:pass	_	Gloss=letter|SpaceAfter=No
+2	ko	ako	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	obj:agent	_	Gloss=I
+3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the
+4	liham	liham	NOUN	_	_	1	nsubj:pass	_	Gloss=letter|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-60-3
 # text = Sinulatan ko ang titser.
 # text_en = I wrote to the teacher.
 1	Sinulatan	sulat	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=written
-2	ko	ako	PRON	_	Case=Erg|Number=Sing|Person=1|PronType=Prs	1	obj:agent	_	Gloss=I
-3	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	4	det	_	Gloss=the
-4	titser	titser	NOUN	_	Number=Sing	1	nsubj:pass	_	Gloss=teacher|SpaceAfter=No
+2	ko	ako	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	obj:agent	_	Gloss=I
+3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the
+4	titser	titser	NOUN	_	_	1	nsubj:pass	_	Gloss=teacher|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-61-2
 # text = Dumarating na ang bus.
 # text_en = The bus is coming now.
 1	Dumarating	dating	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=coming
-2	na	na	ADV	_	_	1	advmod	_	Gloss=now
-3	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	4	det	_	Gloss=the
-4	bus	bus	NOUN	_	Foreign=Yes|Number=Sing	1	nsubj	_	Gloss=bus|SpaceAfter=No
+2	na	na	ADV	_	PronType=Dem	1	advmod	_	Gloss=now
+3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the
+4	bus	bus	NOUN	_	Foreign=Yes	1	nsubj	_	Gloss=bus|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-61-3
 # text = Artista ang babae.
 # text_en = The woman is an actress.
-1	Artista	artista	NOUN	_	Number=Sing	0	root	_	Gloss=actress
-2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
-3	babae	babae	NOUN	_	Number=Sing	1	nsubj	_	Gloss=woman|SpaceAfter=No
+1	Artista	artista	NOUN	_	_	0	root	_	Gloss=actress
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
+3	babae	babae	NOUN	_	_	1	nsubj	_	Gloss=woman|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-61-4
 # text = Maganda ang babae.
 # text_en = The woman is beautiful.
 1	Maganda	ganda	ADJ	_	Degree=Pos	0	root	_	Gloss=beautiful
-2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
-3	babae	babae	NOUN	_	Number=Sing	1	nsubj	_	Gloss=woman|SpaceAfter=No
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
+3	babae	babae	NOUN	_	_	1	nsubj	_	Gloss=woman|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-61-5
 # text = Yumaman ang babae.
 # text_en = The woman got rich.
 1	Yumaman	yaman	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=got-rich
-2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
-3	babae	babae	NOUN	_	Number=Sing	1	nsubj	_	Gloss=woman|SpaceAfter=No
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
+3	babae	babae	NOUN	_	_	1	nsubj	_	Gloss=woman|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-62-0
 # text = Artista ang yumaman.
 # text_en = The one who got rich is an actress.
-1	Artista	artista	NOUN	_	Number=Sing	0	root	_	Gloss=actress
-2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
+1	Artista	artista	NOUN	_	_	0	root	_	Gloss=actress
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
 3	yumaman	yaman	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	1	csubj	_	Gloss=got-rich|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-62-1
 # text = Artista ang nagluto ng pagkain.
 # text_en = The one who cooked some food is an actress.
-1	Artista	artista	NOUN	_	Number=Sing	3	nsubj	_	Gloss=actress
-2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	1	det	_	Gloss=the
+1	Artista	artista	NOUN	_	_	3	nsubj	_	Gloss=actress
+2	ang	ang	ADP	_	Case=Nom	1	case	_	Gloss=the
 3	nagluto	luto	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=cooked
-4	ng	ng	ADP	_	Case=Erg	5	case	_	_
-5	pagkain	pagkain	NOUN	_	Number=Coll	3	obj	_	Gloss=food|SpaceAfter=No
+4	ng	ng	ADP	_	Case=Gen	5	case	_	_
+5	pagkain	pagkain	NOUN	_	_	3	obj	_	Gloss=food|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = schachter-otanes-64-0
 # text = Siya ang Amerikano.
 # text_en = He's the American.
-1	Siya	siya	PRON	_	Case=Abs|Number=Sing|Person=3|PronType=Prs	0	root	_	Gloss=he/she
-2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
-3	Amerikano	amerikano	NOUN	_	Number=Sing	1	nsubj	_	Gloss=American|SpaceAfter=No
+1	Siya	siya	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	Gloss=he/she
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
+3	Amerikano	amerikano	NOUN	_	_	1	nsubj	_	Gloss=American|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-64-1
 # text = Iyan ang bahay.
 # text_en = That's the house.
-1	Iyan	iyan	PRON	_	Case=Abs|Deixis=Med|Number=Sing|PronType=Dem	0	root	_	Gloss=that
-2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
-3	bahay	bahay	NOUN	_	Number=Sing	1	obj	_	Gloss=house|SpaceAfter=No
+1	Iyan	iyan	PRON	_	Case=Nom|Deixis=Med|Number=Sing|PronType=Dem	0	root	_	Gloss=that
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
+3	bahay	bahay	NOUN	_	_	1	obj	_	Gloss=house|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-64-2
 # text = Si Juan ang bunso.
 # text_en = Juan's the youngest child.
-1	Si	ang	DET	_	Case=Abs|Number=Sing|PronType=Art	2	det	_	Gloss=the
-2	Juan	Juan	PROPN	_	Number=Sing	0	root	_	Gloss=Juan
-3	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	4	det	_	Gloss=the
-4	bunso	bunso	NOUN	_	Number=Sing	2	nsubj	_	Gloss=youngest|SpaceAfter=No
+1	Si	si	ADP	_	Case=Nom	2	case	_	Gloss=the
+2	Juan	Juan	PROPN	_	Gender=Masc	0	root	_	Gloss=Juan
+3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the
+4	bunso	bunso	NOUN	_	_	2	nsubj	_	Gloss=youngest|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = schachter-otanes-64-3
 # text = Isda ang bakalaw.
 # text_en = The cod is a fish.
-1	Isda	isda	NOUN	_	Number=Sing	0	root	_	Gloss=fish
-2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
-3	bakalaw	bakalaw	NOUN	_	Number=Sing	1	nsubj	_	Gloss=cod|SpaceAfter=No
+1	Isda	isda	NOUN	_	_	0	root	_	Gloss=fish
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
+3	bakalaw	bakalaw	NOUN	_	_	1	nsubj	_	Gloss=cod|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-64-4
 # text = Isda ang pagkain niya.
 # text_en = His meal is some fish.
-1	Isda	isda	NOUN	_	Number=Sing	0	root	_	Gloss=fish
-2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
-3	pagkain	pagkain	NOUN	_	Number=Coll	1	nsubj	_	Gloss=food
-4	niya	niya	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	Gloss=his/her|SpaceAfter=No
+1	Isda	isda	NOUN	_	_	0	root	_	Gloss=fish
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
+3	pagkain	pagkain	NOUN	_	_	1	nsubj	_	Gloss=food
+4	niya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	Gloss=his/her|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-64-5
 # text = Isda ang paborito niya.
 # text_en = His favorite is fish.
-1	Isda	isda	NOUN	_	Number=Sing	0	root	_	Gloss=fish
-2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
-3	paborito	paborito	NOUN	_	Number=Sing	1	nsubj	_	Gloss=favorite
-4	niya	niya	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	Gloss=his/her|SpaceAfter=No
+1	Isda	isda	NOUN	_	_	0	root	_	Gloss=fish
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
+3	paborito	paborito	NOUN	_	_	1	nsubj	_	Gloss=favorite
+4	niya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	Gloss=his/her|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-64-6
 # text = Bato ang bahay.
 # text_en = The house is stone.
-1	Bato	bato	NOUN	_	Number=Sing	0	root	_	Gloss=stone
-2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
-3	bahay	bahay	NOUN	_	Number=Sing	1	nsubj	_	Gloss=house|SpaceAfter=No
+1	Bato	bato	NOUN	_	_	0	root	_	Gloss=stone
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
+3	bahay	bahay	NOUN	_	_	1	nsubj	_	Gloss=house|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-64-7
 # text = Bago ang bahay.
 # text_en = The house is new.
 1	Bago	bago	ADJ	_	Degree=Pos	0	root	_	Gloss=new
-2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
-3	bahay	bahay	NOUN	_	Number=Sing	1	nsubj	_	Gloss=house|SpaceAfter=No
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
+3	bahay	bahay	NOUN	_	_	1	nsubj	_	Gloss=house|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-65-0
 # text = Bagong-bago ang bahay.
 # text_en = The house is very new.
-1	Bagong	bago	ADJ	_	_	3	compound:redup	_	Gloss=new|SpaceAfter=No
+1	Bagong	bago	ADJ	_	Degree=Pos|Link=Yes	3	compound:redup	_	Gloss=new|SpaceAfter=No
 2	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	bago	bago	ADJ	_	Degree=Sup	0	root	_	Gloss=new
-4	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	5	det	_	Gloss=the
-5	bahay	bahay	NOUN	_	Number=Sing	3	nsubj	_	Gloss=house|SpaceAfter=No
+3	bago	bago	ADJ	_	Degree=Pos	0	root	_	Gloss=new
+4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
+5	bahay	bahay	NOUN	_	_	3	nsubj	_	Gloss=house|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = schachter-otanes-65-2
 # text = Mabuti ang panahon.
 # text_en = The weather is good.
 1	Mabuti	buti	ADJ	_	Degree=Pos	0	root	_	Gloss=good
-2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
-3	panahon	panahon	NOUN	_	Number=Sing	1	nsubj	_	Gloss=weather|SpaceAfter=No
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
+3	panahon	panahon	NOUN	_	_	1	nsubj	_	Gloss=weather|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-65-3
 # text = Matamis ang kendi.
 # text_en = The candy is sweet.
 1	Matamis	tamis	ADJ	_	Degree=Pos	0	root	_	Gloss=sweet
-2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
-3	kendi	kendi	NOUN	_	Number=Sing	1	nsubj	_	Gloss=candy|SpaceAfter=No
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
+3	kendi	kendi	NOUN	_	_	1	nsubj	_	Gloss=candy|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-65-4
 # text = Pagod ang bata.
 # text_en = The child is tired.
 1	Pagod	pagod	ADJ	_	Degree=Pos	0	root	_	Gloss=tired
-2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
-3	bata	bata	NOUN	_	Number=Sing	1	nsubj	_	Gloss=child|SpaceAfter=No
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
+3	bata	bata	NOUN	_	_	1	nsubj	_	Gloss=child|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-65-5
 # text = Nasa kusina ang mesa.
 # text_en = The table is in the kitchen.
-1	Nasa	nasa	ADP	_	Case=Loc	2	case	_	Gloss=in
-2	kusina	kusina	NOUN	_	Number=Sing	0	root	_	Gloss=kitchen
-3	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	4	det	_	Gloss=the
-4	mesa	mesa	NOUN	_	Number=Sing	2	nsubj	_	Gloss=table|SpaceAfter=No
+1	Nasa	nasa	ADP	_	_	2	case	_	Gloss=in
+2	kusina	kusina	NOUN	_	_	0	root	_	Gloss=kitchen
+3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the
+4	mesa	mesa	NOUN	_	_	2	nsubj	_	Gloss=table|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = schachter-otanes-65-6
 # text = Para sa bata ang laruan.
 # text_en = The toy is for the child.
-1	Para	para	ADV	_	_	3	case	_	Gloss=for
+1	Para	para	ADP	_	_	3	case	_	Gloss=for
 2	sa	sa	ADP	_	Case=Dat	3	case	_	Gloss=to
-3	bata	bata	NOUN	_	Number=Sing	0	root	_	Gloss=child
-4	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	5	det	_	Gloss=the
-5	laruan	laruan	NOUN	_	Number=Sing	3	nsubj	_	Gloss=toy|SpaceAfter=No
+3	bata	bata	NOUN	_	_	0	root	_	Gloss=child
+4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
+5	laruan	laruan	NOUN	_	_	3	nsubj	_	Gloss=toy|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = schachter-otanes-65-7
 # text = Tungkol sa giyera ang kuwento.
 # text_en = The story is about the war.
-1	Tungkol	tungkol	ADV	_	_	3	case	_	Gloss=about
+1	Tungkol	tungkol	ADP	_	_	3	case	_	Gloss=about
 2	sa	sa	ADP	_	Case=Dat	3	case	_	Gloss=to
-3	giyera	giyera	NOUN	_	Number=Sing	0	root	_	Gloss=war
-4	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	5	det	_	Gloss=the
-5	kuwento	kuwento	NOUN	_	Number=Sing	3	nsubj	_	Gloss=story|SpaceAfter=No
+3	giyera	giyera	NOUN	_	_	0	root	_	Gloss=war
+4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
+5	kuwento	kuwento	NOUN	_	_	3	nsubj	_	Gloss=story|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = schachter-otanes-65-8
 # text = May gulayan ang babae.
 # text_en = The woman has a vegetable garden.
-1	May	may	AUX	_	_	2	cop	_	Gloss=exist
-2	gulayan	gulayan	NOUN	_	Number=Coll	0	root	_	Gloss=vegetable-garden
-3	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	4	det	_	Gloss=the
-4	babae	babae	NOUN	_	Number=Sing	2	nsubj	_	Gloss=woman|SpaceAfter=No
-5	.	.	PUNCT	_	_	2	punct	_	_
+1	May	may	VERB	_	Polarity=Pos	0	root	_	Gloss=exist
+2	gulayan	gulayan	NOUN	_	_	1	obj	_	Gloss=vegetable-garden
+3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the
+4	babae	babae	NOUN	_	_	1	nsubj	_	Gloss=woman|SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-65-9
 # text = Kailangan ko ang kuwalta.
 # text_en = I need the money.
 1	Kailangan	kailangan	VERB	_	Aspect=Hab	0	root	_	Gloss=necessary
-2	ko	ako	PRON	_	Case=Erg|Number=Sing|Person=1|PronType=Prs	1	obj	_	Gloss=I
-3	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	4	det	_	Gloss=the
-4	kuwalta	kuwalta	NOUN	_	Number=Sing	1	nsubj	_	Gloss=money|SpaceAfter=No
+2	ko	ako	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	obj	_	Gloss=I
+3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the
+4	kuwalta	kuwalta	NOUN	_	_	1	nsubj	_	Gloss=money|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-65-10
 # text = Sa istudyante ang libro.
 # text_en = The book belongs to the student.
 1	Sa	sa	ADP	_	Case=Dat	2	case	_	Gloss=to
-2	istudyante	istudyante	NOUN	_	Number=Sing	0	root	_	Gloss=student
-3	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	4	det	_	Gloss=the
-4	libro	libro	NOUN	_	Number=Sing	2	nsubj	_	Gloss=book|SpaceAfter=No
+2	istudyante	istudyante	NOUN	_	_	0	root	_	Gloss=student
+3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the
+4	libro	libro	NOUN	_	_	2	nsubj	_	Gloss=book|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = schachter-otanes-67-0
 # text = Nagluto ng pagkain ang nanay.
 # text_en = Mother cooked some food.
 1	Nagluto	luto	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=cooked
-2	ng	ng	ADP	_	Case=Erg	3	case	_	_
-3	pagkain	pagkain	NOUN	_	Number=Coll	1	obj	_	Gloss=food
-4	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	5	det	_	Gloss=the
-5	nanay	nanay	NOUN	_	Number=Sing	1	nsubj	_	Gloss=mother|SpaceAfter=No
+2	ng	ng	ADP	_	Case=Gen	3	case	_	_
+3	pagkain	pagkain	NOUN	_	_	1	obj	_	Gloss=food
+4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
+5	nanay	nanay	NOUN	_	_	1	nsubj	_	Gloss=mother|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-67-1
 # text = Nagluto na ng pagkain ang nanay.
 # text_en = Mother has cooked some food.
 1	Nagluto	luto	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=cooked
-2	na	na	ADV	_	_	1	advmod	_	Gloss=now
-3	ng	ng	ADP	_	Case=Erg	4	case	_	_
-4	pagkain	pagkain	NOUN	_	Number=Coll	1	obj	_	Gloss=food
-5	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	6	det	_	Gloss=the
-6	nanay	nanay	NOUN	_	Number=Sing	1	nsubj	_	Gloss=mother|SpaceAfter=No
+2	na	na	ADV	_	PronType=Dem	1	advmod	_	Gloss=now
+3	ng	ng	ADP	_	Case=Gen	4	case	_	_
+4	pagkain	pagkain	NOUN	_	_	1	obj	_	Gloss=food
+5	ang	ang	ADP	_	Case=Nom	6	case	_	Gloss=the
+6	nanay	nanay	NOUN	_	_	1	nsubj	_	Gloss=mother|SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-67-2
 # text = Nagluto na ng pagkain ang nanay noong dumating ako.
 # text_en = Mother had cooked some food when I arrived.
 1	Nagluto	luto	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=cooked
-2	na	na	ADV	_	_	1	advmod	_	Gloss=now
-3	ng	ng	ADP	_	Case=Erg	4	case	_	_
-4	pagkain	pagkain	NOUN	_	Number=Coll	1	obj	_	Gloss=food
-5	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	6	det	_	Gloss=the
-6	nanay	nanay	NOUN	_	Number=Sing	1	nsubj	_	Gloss=mother
+2	na	na	ADV	_	PronType=Dem	1	advmod	_	Gloss=now
+3	ng	ng	ADP	_	Case=Gen	4	case	_	_
+4	pagkain	pagkain	NOUN	_	_	1	obj	_	Gloss=food
+5	ang	ang	ADP	_	Case=Nom	6	case	_	Gloss=the
+6	nanay	nanay	NOUN	_	_	1	nsubj	_	Gloss=mother
 7	noong	nang	SCONJ	_	_	8	mark	_	Gloss=when
 8	dumating	dating	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	1	advcl	_	Gloss=arrived
-9	ako	ako	PRON	_	Case=Abs|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	Gloss=I|SpaceAfter=No
+9	ako	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	Gloss=I|SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-67-3
 # text = Nagluluto ng pagkain ang nanay araw-araw.
 # text_en = Mother is cooking some food everyday.
 1	Nagluluto	luto	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=cooking
-2	ng	ng	ADP	_	Case=Erg	3	case	_	_
-3	pagkain	pagkain	NOUN	_	Number=Coll	1	obj	_	Gloss=food
-4	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	5	det	_	Gloss=the
-5	nanay	nanay	NOUN	_	Number=Sing	1	nsubj	_	Gloss=mother
-6	araw	araw	ADV	_	_	8	compound:redup	_	Gloss=day|SpaceAfter=No
+2	ng	ng	ADP	_	Case=Gen	3	case	_	_
+3	pagkain	pagkain	NOUN	_	_	1	obj	_	Gloss=food
+4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
+5	nanay	nanay	NOUN	_	_	1	nsubj	_	Gloss=mother
+6	araw	araw	NOUN	_	_	8	compound:redup	_	Gloss=day|SpaceAfter=No
 7	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
-8	araw	araw	ADV	_	Number=Plur	1	advmod	_	Gloss=day|SpaceAfter=No
+8	araw	araw	NOUN	_	_	1	obl	_	Gloss=day|SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-67-4
 # text = Nagluluto na ng pagkain ang nanay.
 # text_en = Mother is cooking some food now.
 1	Nagluluto	luto	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=cooking
-2	na	na	ADV	_	_	1	advmod	_	Gloss=now
-3	ng	ng	ADP	_	Case=Erg	4	case	_	_
-4	pagkain	pagkain	NOUN	_	Number=Coll	1	obj	_	Gloss=food
-5	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	6	det	_	Gloss=the
-6	nanay	nanay	NOUN	_	Number=Sing	1	nsubj	_	Gloss=mother|SpaceAfter=No
+2	na	na	ADV	_	PronType=Dem	1	advmod	_	Gloss=now
+3	ng	ng	ADP	_	Case=Gen	4	case	_	_
+4	pagkain	pagkain	NOUN	_	_	1	obj	_	Gloss=food
+5	ang	ang	ADP	_	Case=Nom	6	case	_	Gloss=the
+6	nanay	nanay	NOUN	_	_	1	nsubj	_	Gloss=mother|SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-67-5
 # text = Nagluluto ng pagkain ang nanay noong dumating ako.
 # text_en = Mother was cooking some food when I arrived.
 1	Nagluluto	luto	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=cooking
-2	ng	ng	ADP	_	Case=Erg	3	case	_	_
-3	pagkain	pagkain	NOUN	_	Number=Coll	1	obj	_	Gloss=food
-4	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	5	det	_	Gloss=the
-5	nanay	nanay	NOUN	_	Number=Sing	1	nsubj	_	Gloss=mother
+2	ng	ng	ADP	_	Case=Gen	3	case	_	_
+3	pagkain	pagkain	NOUN	_	_	1	obj	_	Gloss=food
+4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
+5	nanay	nanay	NOUN	_	_	1	nsubj	_	Gloss=mother
 6	noong	nang	SCONJ	_	_	7	mark	_	Gloss=when
 7	dumating	dating	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	1	advcl	_	Gloss=arrived
-8	ako	ako	PRON	_	Case=Abs|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Gloss=I|SpaceAfter=No
+8	ako	ako	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Gloss=I|SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-67-6
 # text = Magluluto ng pagkain ang nanay bukas.
 # text_en = Mother will cook some food tomorrow.
 1	Magluluto	luto	VERB	_	Aspect=Prosp|Mood=Ind|Voice=Act	0	root	_	Gloss=will-cook
-2	ng	ng	ADP	_	Case=Erg	3	case	_	_
-3	pagkain	pagkain	NOUN	_	Number=Coll	1	obj	_	Gloss=food
-4	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	5	det	_	Gloss=the
-5	nanay	nanay	NOUN	_	Number=Sing	1	nsubj	_	Gloss=mother
+2	ng	ng	ADP	_	Case=Gen	3	case	_	_
+3	pagkain	pagkain	NOUN	_	_	1	obj	_	Gloss=food
+4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
+5	nanay	nanay	NOUN	_	_	1	nsubj	_	Gloss=mother
 6	bukas	bukas	ADV	_	_	1	advmod	_	Gloss=tomorrow|SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -331,38 +331,38 @@
 1	Hindi	hindi	PART	_	Polarity=Neg	3	advmod	_	Gloss=not
 2	pa	pa	ADV	_	_	3	advmod	_	Gloss=yet
 3	nagluluto	luto	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=cooking
-4	ng	ng	ADP	_	Case=Erg	5	case	_	_
-5	pagkain	pagkain	NOUN	_	Number=Coll	3	obj	_	Gloss=food
-6	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	7	det	_	Gloss=the
-7	nanay	nanay	NOUN	_	Number=Sing	3	nsubj	_	Gloss=mother|SpaceAfter=No
+4	ng	ng	ADP	_	Case=Gen	5	case	_	_
+5	pagkain	pagkain	NOUN	_	_	3	obj	_	Gloss=food
+6	ang	ang	ADP	_	Case=Nom	7	case	_	Gloss=the
+7	nanay	nanay	NOUN	_	_	3	nsubj	_	Gloss=mother|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = schachter-otanes-69-1
 # text = Bumabasa ng diyaryo ang titser.
 # text_en = The teacher is reading a newspaper.
 1	Bumabasa	basa	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=reading
-2	ng	ng	ADP	_	Case=Erg	3	case	_	_
-3	diyaryo	diyaryo	NOUN	_	Number=Sing	1	obj	_	Gloss=newspaper
-4	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	5	det	_	Gloss=the
-5	titser	titser	NOUN	_	Number=Sing	1	nsubj	_	Gloss=teacher|SpaceAfter=No
+2	ng	ng	ADP	_	Case=Gen	3	case	_	_
+3	diyaryo	diyaryo	NOUN	_	_	1	obj	_	Gloss=newspaper
+4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
+5	titser	titser	NOUN	_	_	1	nsubj	_	Gloss=teacher|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-69-2
 # text = Binabasa ng titser ang diyaryo.
 # text_en = The teacher is reading the newspaper.
 1	Binabasa	basa	VERB	_	Aspect=Imp|Mood=Ind|Voice=Pass	0	root	_	Gloss=being-read
-2	ng	ng	ADP	_	Case=Erg	3	case	_	_
-3	titser	titser	NOUN	_	Number=Sing	1	obj:agent	_	Gloss=teacher
-4	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	5	det	_	Gloss=the
-5	diyaryo	diyaryo	NOUN	_	Number=Sing	1	nsubj:pass	_	Gloss=newspaper|SpaceAfter=No
+2	ng	ng	ADP	_	Case=Gen	3	case	_	_
+3	titser	titser	NOUN	_	_	1	obj:agent	_	Gloss=teacher
+4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
+5	diyaryo	diyaryo	NOUN	_	_	1	nsubj:pass	_	Gloss=newspaper|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-69-3
 # text = Naghihilik ang lolo.
 # text_en = Grandfather is snoring.
 1	Naghihilik	hilik	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=snoring
-2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
-3	lolo	lolo	NOUN	_	Number=Sing	1	nsubj	_	Gloss=grandfather|SpaceAfter=No
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
+3	lolo	lolo	NOUN	_	_	1	nsubj	_	Gloss=grandfather|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-69-4
@@ -370,78 +370,78 @@
 # text_en = The patient is still breathing.
 1	Humihinga	hinga	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=breathing
 2	pa	pa	ADV	_	_	1	advmod	_	Gloss=still
-3	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	4	det	_	Gloss=the
-4	pasyente	pasyente	NOUN	_	Number=Sing	1	nsubj	_	Gloss=patient|SpaceAfter=No
+3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the
+4	pasyente	pasyente	NOUN	_	_	1	nsubj	_	Gloss=patient|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-70-0
 # text = Nauuhaw ang sanggol.
 # text_en = The baby is getting thirsty.
 1	Nauuhaw	uhaw	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=getting-thirsty
-2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
-3	sanggol	sanggol	NOUN	_	Number=Sing	1	nsubj	_	Gloss=baby|SpaceAfter=No
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
+3	sanggol	sanggol	NOUN	_	_	1	nsubj	_	Gloss=baby|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-70-1
 # text = Tumatanda ang aso.
 # text_en = The dog is growing old.
 1	Tumatanda	magtanda	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=getting-older
-2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
-3	aso	aso	NOUN	_	Number=Sing	1	nsubj	_	Gloss=dog|SpaceAfter=No
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
+3	aso	aso	NOUN	_	_	1	nsubj	_	Gloss=dog|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-70-2
 # text = Ibinigay ng titser sa istudyante ang premyo.
 # text_en = The teacher gave the student the prize.
 1	Ibinigay	bigay	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=given
-2	ng	ng	ADP	_	Case=Erg	3	case	_	_
-3	titser	titser	NOUN	_	Number=Sing	1	obj:agent	_	Gloss=teacher
+2	ng	ng	ADP	_	Case=Gen	3	case	_	_
+3	titser	titser	NOUN	_	_	1	obj:agent	_	Gloss=teacher
 4	sa	sa	ADP	_	Case=Dat	5	case	_	Gloss=to
-5	istudyante	istudyante	NOUN	_	Number=Sing	1	obl	_	Gloss=student
-6	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	7	det	_	Gloss=the
-7	premyo	premyo	NOUN	_	Number=Sing	1	nsubj:pass	_	Gloss=prize|SpaceAfter=No
+5	istudyante	istudyante	NOUN	_	_	1	obl	_	Gloss=student
+6	ang	ang	ADP	_	Case=Nom	7	case	_	Gloss=the
+7	premyo	premyo	NOUN	_	_	1	nsubj:pass	_	Gloss=prize|SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-70-3
 # text = Binigyan ng titser ng premyo ang istudyante.
 # text_en = The teacher gave the student a prize.
 1	Binigyan	bigay	VERB	_	Aspect=Perf|Mood=Ind|Voice=Lfoc	0	root	_	Gloss=given
-2	ng	ng	ADP	_	Case=Erg	3	case	_	_
-3	titser	titser	NOUN	_	Number=Sing	1	obj:agent	_	Gloss=teacher
-4	ng	ng	ADP	_	Case=Erg	3	case	_	_
-5	premyo	premyo	NOUN	_	Number=Sing	1	iobj	_	Gloss=prize
-6	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	7	det	_	Gloss=the
-7	istudyante	istudyante	NOUN	_	Number=Sing	1	nsubj:lfoc	_	Gloss=student|SpaceAfter=No
+2	ng	ng	ADP	_	Case=Gen	3	case	_	_
+3	titser	titser	NOUN	_	_	1	obj:agent	_	Gloss=teacher
+4	ng	ng	ADP	_	Case=Gen	3	case	_	_
+5	premyo	premyo	NOUN	_	_	1	iobj	_	Gloss=prize
+6	ang	ang	ADP	_	Case=Nom	7	case	_	Gloss=the
+7	istudyante	istudyante	NOUN	_	_	1	nsubj:lfoc	_	Gloss=student|SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-70-4
 # text = Binili ng mangingisda ang bangka.
 # text_en = The fisherman bought the boat.
 1	Binili	bili	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=bought
-2	ng	ng	ADP	_	Case=Erg	3	case	_	_
-3	mangingisda	mangingisda	NOUN	_	Number=Sing	1	obj:agent	_	Gloss=fisherman
-4	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	5	det	_	Gloss=the
-5	bangka	bangka	NOUN	_	Number=Sing	1	nsubj:pass	_	Gloss=boat|SpaceAfter=No
+2	ng	ng	ADP	_	Case=Gen	3	case	_	_
+3	mangingisda	mangingisda	NOUN	_	_	1	obj:agent	_	Gloss=fisherman
+4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
+5	bangka	bangka	NOUN	_	_	1	nsubj:pass	_	Gloss=boat|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-70-5
 # text = Sinalpok ng alon ang bangka.
 # text_en = The wave struck the boat.
 1	Sinalpok	salpok	VERB	_	Aspect=Perf|Mood=Ind|Voice=Lfoc	0	root	_	Gloss=struck
-2	ng	ng	ADP	_	Case=Erg	3	case	_	_
-3	alon	alon	NOUN	_	Number=Coll	1	obj:agent	_	Gloss=wave
-4	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	5	det	_	Gloss=the
-5	bangka	bangka	NOUN	_	Number=Sing	1	nsubj:lfoc	_	Gloss=boat|SpaceAfter=No
+2	ng	ng	ADP	_	Case=Gen	3	case	_	_
+3	alon	alon	NOUN	_	_	1	obj:agent	_	Gloss=wave
+4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
+5	bangka	bangka	NOUN	_	_	1	nsubj:lfoc	_	Gloss=boat|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-70-6
 # text = Bumili ng bangka ang mangingisda.
 # text_en = The fisherman bought a boat.
 1	Bumili	bili	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=bought
-2	ng	ng	ADP	_	Case=Erg	3	case	_	_
-3	bangka	bangka	NOUN	_	Number=Sing	1	obj	_	Gloss=boat
-4	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	5	det	_	Gloss=the
-5	mangingisda	mangingisda	NOUN	_	Number=Sing	1	nsubj	_	Gloss=fisherman|SpaceAfter=No
+2	ng	ng	ADP	_	Case=Gen	3	case	_	_
+3	bangka	bangka	NOUN	_	_	1	obj	_	Gloss=boat
+4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
+5	mangingisda	mangingisda	NOUN	_	_	1	nsubj	_	Gloss=fisherman|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-70-7
@@ -449,71 +449,72 @@
 # text_en = The wave struck the boat.
 1	Sumalpok	salpok	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=struck
 2	sa	sa	ADP	_	Case=Dat	3	case	_	Gloss=to
-3	bangka	bangka	NOUN	_	Number=Sing	1	obl	_	Gloss=boat
-4	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	5	det	_	Gloss=the
-5	alon	alon	NOUN	_	Number=Coll	1	nsubj	_	Gloss=wave|SpaceAfter=No
+3	bangka	bangka	NOUN	_	_	1	obl	_	Gloss=boat
+4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
+5	alon	alon	NOUN	_	_	1	nsubj	_	Gloss=wave|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-71-0
 # text = Binalikan niya ang Maynila.
 # text_en = He returned to Manila.
 1	Binalikan	balik	VERB	_	Aspect=Perf|Mood=Ind|Voice=Lfoc	0	root	_	Gloss=returned
-2	niya	siya	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	1	obj:agent	_	Gloss=he/she
-3	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	4	det	_	Gloss=the
-4	Maynila	Maynila	PROPN	_	Number=Sing	1	nsubj:lfoc	_	Gloss=Manila|SpaceAfter=No
+2	niya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	obj:agent	_	Gloss=he/she
+3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the
+4	Maynila	Maynila	PROPN	_	_	1	nsubj:lfoc	_	Gloss=Manila|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-71-1
 # text = Tinakasan niya ang bilangguan.
 # text_en = He escaped from the prison.
 1	Tinakasan	takas	VERB	_	Aspect=Perf|Mood=Ind|Voice=Lfoc	0	root	_	Gloss=escaped
-2	niya	siya	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	1	obj:agent	_	Gloss=he/she
-3	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	4	det	_	Gloss=the
-4	bilangguan	bilangguan	NOUN	_	Number=Sing	1	nsubj:lfoc	_	Gloss=prison|SpaceAfter=No
+2	niya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	obj:agent	_	Gloss=he/she
+3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the
+4	bilangguan	bilangguan	NOUN	_	_	1	nsubj:lfoc	_	Gloss=prison|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-95-10
 # text = Mansanas ito.
 # text_en = This is an apple.
-1	Mansanas	mansanas	NOUN	_	Number=Sing	0	root	_	Gloss=apple
-2	ito	ito	PRON	_	Case=Abs|Deixis=Prox|Number=Sing|PronType=Dem	1	det	_	Gloss=this|SpaceAfter=No
+1	Mansanas	mansanas	NOUN	_	_	0	root	_	Gloss=apple
+2	ito	ito	PRON	_	Case=Nom|Deixis=Prox|Number=Sing|PronType=Dem	1	det	_	Gloss=this|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-97-0
 # text = Biyudo ang maestro.
 # text_en = The teacher is a widower.
-1	Biyudo	biyudo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Gloss=widower
-2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
+1	Biyudo	biyudo	NOUN	_	Gender=Masc	0	root	_	Gloss=widower
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
 3	maestro	maestro	NOUN	_	Gender=Masc	1	nsubj	_	Gloss=teacher|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-97-1
 # text = Biyuda ang maestra.
 # text_en = The teacher is a widow.
-1	Biyuda	biyuda	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Gloss=widow
-2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
+1	Biyuda	biyuda	NOUN	_	Gender=Fem	0	root	_	Gloss=widow
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
 3	maestra	maestra	NOUN	_	Gender=Fem	1	nsubj	_	Gloss=teacher|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-197-0
 # text = Komika si Linda.
 # text_en = Linda is funny.
-1	Komika	komika	ADJ	_	Gender=Fem	0	root	_	Gloss=funny
-2	si	ang	DET	_	Case=Abs|Number=Sing|PronType=Art	3	det	_	Gloss=the
-3	Linda	Linda	PROPN	_	Gender=Fem|Number=Sing	1	nsubj	_	Gloss=Linda|SpaceAfter=No
+1	Komika	komika	ADJ	_	Degree=Pos|Gender=Fem	0	root	_	Gloss=funny
+2	si	si	ADP	_	Case=Nom	3	case	_	Gloss=the
+3	Linda	Linda	PROPN	_	Gender=Fem	1	nsubj	_	Gloss=Linda|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = devos-71-0
 # text = Nakita kita.
 # text_en = I saw you.
 1	Nakita	kita	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=seen
-2	kita	ako	PRON	_	Case=Abs|Clusivity=In|Number=Dual|Person=1|PronType=Prs	1	nsubj:pass	_	Gloss=I|SpaceAfter=No
+2	kita	ako	PRON	_	Case=Nom|Clusivity=In|Number=Dual|Person=1|PronType=Prs	1	nsubj:pass	_	Gloss=I|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-73-0
 # text = Kinain ang pagkain.
 # text_en = The food was eaten.
 1	Kinain	kain	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=ate
-2	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	3	det	_	Gloss=the
-3	pagkain	pagkain	NOUN	_	Number=Coll	1	nsubj	_	Gloss=food|SpaceAfter=No
+2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the
+3	pagkain	pagkain	NOUN	_	_	1	nsubj	_	Gloss=food|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
+

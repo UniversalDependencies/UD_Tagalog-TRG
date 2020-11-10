@@ -155,9 +155,9 @@
 # sent_id = schachter-otanes-65-0
 # text = Bagong-bago ang bahay.
 # text_en = The house is very new.
-1	Bagong	bago	ADJ	_	_	3	compound:redup	_	Gloss=new|SpaceAfter=No
+1	Bagong	bago	ADJ	_	Degree=Pos|Link=Yes	3	compound:redup	_	Gloss=new|SpaceAfter=No
 2	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	bago	bago	ADJ	_	Degree=Sup	0	root	_	Gloss=new
+3	bago	bago	ADJ	_	Degree=Pos	0	root	_	Gloss=new
 4	ang	ang	DET	_	Case=Abs|Definite=Def|PronType=Art	5	det	_	Gloss=the
 5	bahay	bahay	NOUN	_	_	3	nsubj	_	Gloss=house|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
@@ -498,7 +498,7 @@
 # sent_id = schachter-otanes-197-0
 # text = Komika si Linda.
 # text_en = Linda is funny.
-1	Komika	komika	ADJ	_	Gender=Fem	0	root	_	Gloss=funny
+1	Komika	komika	ADJ	_	Degree=Pos|Gender=Fem	0	root	_	Gloss=funny
 2	si	ang	DET	_	Case=Abs|Number=Sing|PronType=Art	3	det	_	Gloss=the
 3	Linda	Linda	PROPN	_	Gender=Fem	1	nsubj	_	Gloss=Linda|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_

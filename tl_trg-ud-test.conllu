@@ -124,7 +124,7 @@
 1	Isda	isda	NOUN	_	_	0	root	_	Gloss=fish
 2	ang	ang	DET	_	Case=Nom|Definite=Def|PronType=Art	3	det	_	Gloss=the
 3	pagkain	pagkain	NOUN	_	_	1	nsubj	_	Gloss=food
-4	niya	niya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	Gloss=his/her|SpaceAfter=No
+4	niya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	Gloss=his/her|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-64-5
@@ -133,7 +133,7 @@
 1	Isda	isda	NOUN	_	_	0	root	_	Gloss=fish
 2	ang	ang	DET	_	Case=Nom|Definite=Def|PronType=Art	3	det	_	Gloss=the
 3	paborito	paborito	NOUN	_	_	1	nsubj	_	Gloss=favorite
-4	niya	niya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	Gloss=his/her|SpaceAfter=No
+4	niya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	Gloss=his/her|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-64-6

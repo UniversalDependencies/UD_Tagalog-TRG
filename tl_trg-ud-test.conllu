@@ -38,7 +38,7 @@
 # text = Dumarating na ang bus.
 # text_en = The bus is coming now.
 1	Dumarating	dating	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=coming
-2	na	na	ADV	_	_	1	advmod	_	Gloss=now
+2	na	na	ADV	_	PronType=Dem	1	advmod	_	Gloss=now
 3	ang	ang	ADP	_	Case=Nom	4	det	_	Gloss=the
 4	bus	bus	NOUN	_	Foreign=Yes	1	nsubj	_	Gloss=bus|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
@@ -198,7 +198,7 @@
 # sent_id = schachter-otanes-65-6
 # text = Para sa bata ang laruan.
 # text_en = The toy is for the child.
-1	Para	para	ADV	_	_	3	case	_	Gloss=for
+1	Para	para	ADP	_	_	3	case	_	Gloss=for
 2	sa	sa	ADP	_	Case=Dat	3	case	_	Gloss=to
 3	bata	bata	NOUN	_	_	0	root	_	Gloss=child
 4	ang	ang	ADP	_	Case=Nom	5	det	_	Gloss=the
@@ -208,7 +208,7 @@
 # sent_id = schachter-otanes-65-7
 # text = Tungkol sa giyera ang kuwento.
 # text_en = The story is about the war.
-1	Tungkol	tungkol	ADV	_	_	3	case	_	Gloss=about
+1	Tungkol	tungkol	ADP	_	_	3	case	_	Gloss=about
 2	sa	sa	ADP	_	Case=Dat	3	case	_	Gloss=to
 3	giyera	giyera	NOUN	_	_	0	root	_	Gloss=war
 4	ang	ang	ADP	_	Case=Nom	5	det	_	Gloss=the
@@ -256,7 +256,7 @@
 # text = Nagluto na ng pagkain ang nanay.
 # text_en = Mother has cooked some food.
 1	Nagluto	luto	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=cooked
-2	na	na	ADV	_	_	1	advmod	_	Gloss=now
+2	na	na	ADV	_	PronType=Dem	1	advmod	_	Gloss=now
 3	ng	ng	ADP	_	Case=Gen	4	case	_	_
 4	pagkain	pagkain	NOUN	_	_	1	obj	_	Gloss=food
 5	ang	ang	ADP	_	Case=Nom	6	det	_	Gloss=the
@@ -267,7 +267,7 @@
 # text = Nagluto na ng pagkain ang nanay noong dumating ako.
 # text_en = Mother had cooked some food when I arrived.
 1	Nagluto	luto	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=cooked
-2	na	na	ADV	_	_	1	advmod	_	Gloss=now
+2	na	na	ADV	_	PronType=Dem	1	advmod	_	Gloss=now
 3	ng	ng	ADP	_	Case=Gen	4	case	_	_
 4	pagkain	pagkain	NOUN	_	_	1	obj	_	Gloss=food
 5	ang	ang	ADP	_	Case=Nom	6	det	_	Gloss=the
@@ -285,16 +285,16 @@
 3	pagkain	pagkain	NOUN	_	_	1	obj	_	Gloss=food
 4	ang	ang	ADP	_	Case=Nom	5	det	_	Gloss=the
 5	nanay	nanay	NOUN	_	_	1	nsubj	_	Gloss=mother
-6	araw	araw	ADV	_	_	8	compound:redup	_	Gloss=day|SpaceAfter=No
+6	araw	araw	NOUN	_	_	8	compound:redup	_	Gloss=day|SpaceAfter=No
 7	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
-8	araw	araw	ADV	_	Number=Plur	1	advmod	_	Gloss=day|SpaceAfter=No
+8	araw	araw	NOUN	_	_	1	obl	_	Gloss=day|SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-67-4
 # text = Nagluluto na ng pagkain ang nanay.
 # text_en = Mother is cooking some food now.
 1	Nagluluto	luto	VERB	_	Aspect=Imp|Mood=Ind|Voice=Act	0	root	_	Gloss=cooking
-2	na	na	ADV	_	_	1	advmod	_	Gloss=now
+2	na	na	ADV	_	PronType=Dem	1	advmod	_	Gloss=now
 3	ng	ng	ADP	_	Case=Gen	4	case	_	_
 4	pagkain	pagkain	NOUN	_	_	1	obj	_	Gloss=food
 5	ang	ang	ADP	_	Case=Nom	6	det	_	Gloss=the

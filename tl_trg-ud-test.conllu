@@ -218,11 +218,11 @@
 # sent_id = schachter-otanes-65-8
 # text = May gulayan ang babae.
 # text_en = The woman has a vegetable garden.
-1	May	may	AUX	_	_	2	cop	_	Gloss=exist
-2	gulayan	gulayan	NOUN	_	_	0	root	_	Gloss=vegetable-garden
+1	May	may	VERB	_	Polarity=Pos	0	root	_	Gloss=exist
+2	gulayan	gulayan	NOUN	_	_	1	obj	_	Gloss=vegetable-garden
 3	ang	ang	ADP	_	Case=Nom	4	det	_	Gloss=the
-4	babae	babae	NOUN	_	_	2	nsubj	_	Gloss=woman|SpaceAfter=No
-5	.	.	PUNCT	_	_	2	punct	_	_
+4	babae	babae	NOUN	_	_	1	nsubj	_	Gloss=woman|SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = schachter-otanes-65-9
 # text = Kailangan ko ang kuwalta.

@@ -68,6 +68,11 @@
     - a. **Pos** - Positive
     - b. **Neg** - Negative
 
+14. Deixis (PRON, ADV) ... for PronType=Dem (demonstratives)
+    - a. **Prox** - Proximate _(ito, nito, dito, rito)_
+    - b. **Med**  - Medial _(iyan, niyan, diyan, riyan)_
+    - c. **Remt** - Remote _(iyon, niyon, noon, doon, roon)_
+
 #### Features by part of speech
 
 * Optional features that are allowed with any part of speech

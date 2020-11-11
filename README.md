@@ -20,6 +20,13 @@ of California Press. isbn: 9780520017764.
 
 # Changelog
 
+* 2020-11-15 v2.7
+    * Fixed a few validation errors.
+    * Instead of the Focus attribute in MISC, verbal inflection now has the Voice feature.
+    * Removed XPOS tags because they were uninformative (taken from the English Penn set).
+    * Added the PronType=Prs feature to personal pronouns (also added Number, Person and Clusivity where missing).
+    * Added the PronType=Art feature to determiners.
+    * Added glosses in MISC.
 * 2018-03-14 v0.1
     * First release in UD
 
@@ -31,11 +38,11 @@ Includes text: yes
 Genre: grammar-examples
 Lemmas: manual native
 UPOS: manual native
-XPOS: manual native
+XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Samson, Stephanie
-Contributing: elsewhere
+Contributors: Samson, Stephanie; Zeman, Daniel; Tan, Mary Ann C.
+Contributing: here
 Contact: stephsamson@protonmail.ch
 ===============================================================================
 </pre>

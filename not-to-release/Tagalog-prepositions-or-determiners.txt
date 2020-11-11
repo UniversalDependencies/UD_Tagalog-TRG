@@ -1,0 +1,48 @@
+<!--
+Schachter and Shopen (2007), page 35:
+If the role marker precedes the noun, as in the following example from Tagalog, it may be called a preposition:
+(100) Ipinansulat _ni_ John _ng_ liham _kay_ Mary _ang_ makinilya. "John wrote Mary a letter on the typewriter."
+The first mention occurs on page 8, there it is called only "case markers and topic markers".
+
+Dryer (2007), page 121:
+[on Batad Ifugao, which "is like other Philippine languages (e.g. Tagalog, Cebuano)"]
+Noun phrases occur with determiners which code a variety of grammatical properties and which interact with the focus system.
+page 122:
+As discussed above, we use the term _article_ in this chapter to denote words that commonly occur in noun phrases in a language and which code various grammatical or semantic features of the noun phrase, such as definiteness, but do not necessarily code a definite-indefinite distinction.
+["above" refers to pages 94-95:]
+In European languages, the term 'article' is used to denote words which code definiteness or indefiniteness and which, in some languages, vary with respect to other grammatical features of the noun phrase as well, such as case, gender, or number. Some languages elsewhere in the world employ words that do not vary for definiteness but which resemble articles in European languages in that they are words that are very common in noun phrases and which vary for grammatical features of the noun phrase (including number, case, gender) even if this does not include definiteness (see Dryer in vol. II, chapter 3 [pages 157-158], for further discussion). If we include such words in our understanding of the term 'article', i.e. if we treat definiteness not as a defining characteristic of articles, but simply as a characteristic of articles in European languages, then words that introduce noun phrases in Cebuano, as in (84), count as articles.
+
+Andrews (2007), page 203 and on, speaks about "markers" without calling them prepositions or determiners.
+
+Foley (2007), page 400:
+Philippine languages, of which Tagalog is a good example, illustrate symmetrical languages. In Tagalog [-oblique] arguments are marked with the preposition _ng_ and [+oblique] arguments with _sa_. The pivot NP has the preposition _ang_ and the verb takes a series of affixes to indicate the[+-A]-feature status of the pivot (_-um-_ 'pivot = [+A]' is an infix which occurs between the initial consonant of the root and the following vowel).
+
+Himmelmann (2005), pages 145-147:
+To date, there is no standard analysis and terminology in use for these forms in the literature on western Austronesian languages. A recent survey by Reid (2002:286f) shows that more than two dozen labels have been used in reference to them, including _articles/determiners, prepositions, case markers_ and _relation markers_. ... Tagalog _ang_ has been glossed 'nominative', 'absolutive', 'specific', 'subject', 'topic', 'trigger' etc.
+...
+it is quite clear that the phrase markers have characteristics of both determiners ('articles') and prepositions.
+
+Payne (1997, Describing Morphosyntax), page 54:
+The prepositional case marker _ang_ ...
+
+Kroeger (1993)
+Používá termín "nominative" pro _ang_, "genitive" pro _ng_ a "dative" pro _sa_, neříká tomu determiner, ale v podstatě vylučuje, že by to byla předložka. Např. na straně 40: "the controller ... may be either the Actor or the nominative argument of the matrix clause, but not a dative or prepositional argument."
+
+Zeman (2018), page 50:
+Both categories could be extended to the Philippine phrase markers and can be found in the literature, e.g. Schachter and Shopen (2007) p. 35, and Dryer (2007), p. 121.
+
+de Marneffe, Manning, Nivre and Zeman (CL draft), page 41:
+Categorizing the Tagalog markers as determiners seems to be more favored in the literature, and is adopted here.
+[Jenže to nemám podložené žádnou citací!]
+
+-------------------------------------------------------------------------------
+Possible explanation in the UD page on Tagalog:
+Like other Philippine-type languages, Tagalog employs nominal markers that have characteristics of both determiners (‘articles’) and prepositions (Himmelmann 2005, pages 145–147). Their functions include case marking, semantic role marking, topic and definiteness marking. There is no standard terminology in use for these words in the literature. Some authors classify them as prepositions (e.g., Schachter and Shopen 2007, page 35), some as articles or determiners (e.g., Dryer 2007, pages 94–95 and 121–122), and many authors avoid either of the terms and use the term ‘markers’ instead (e.g., Andrews 2007, page 203). Within the UD framework, we have to choose either the [ADP]() tag or the [DET]() tag and the corresponding dependency relations. OKAY, AND NOW, WHAT'S THE DECISION? MY SOURCES NOW SEEM TO SLIGHTLY FAVOR PREPOSITIONS BUT WE SHOULD BETTER AVOID CLAIMING THAT ONE OF THE TERMS IS MORE FREQUENT. IDEALLY THE SOLUTION SHOULD BE PORTABLE TO ALL PHILIPPINE-TYPE LANGUAGES BUT AT PRESENT WE DON'T HAVE OTHER SUCH LANGUAGES IN UD. (REPORTEDLY THE FUNCTIONS OF THESE MARKERS MAY BE MORE COMPLICATED IN OTHER LANGUAGES THAN THEY ARE IN TAGALOG.) THE UGNAYAN TREEBANK NOW TAGS ALL THREE MARKERS AS ADPOSITIONS. WE MAY NOT BE ABLE TO CHANGE IT, SO DOING THE SAME WILL HAVE THE BENEFIT OF MAKING THE TWO TAGALOG TREEBANKS MORE CONSISTENT. THE TRG TREEBANK NOW TAGS "ANG" AS DETERMINER WHILE "NG" AND "SA" ARE ADPOSITIONS.
+
+## References
+
+* Avery D. Andrews (2007). The major functions of the noun phrase. In Timothy Shopen (ed.): Language Typology and Syntactic Description vol. I: Clause Structure. Cambridge University Press, Cambridge, UK.
+* Matthew S. Dryer (2007). Word order. In Timothy Shopen (ed.): Language Typology and Syntactic Description vol. I: Clause Structure. Cambridge University Press, Cambridge, UK.
+* Nikolaus P. Himmelmann (2005). Typological characteristics. In Alexander Adelaar and Nikolaus P. Himmelmann (eds.): The Austronesian Languages of Asia and Madagascar. Routledge, London and New York.
+* Paul Schachter and Timothy Shopen (2007). Parts-of-speech systems. In Timothy Shopen (ed.): Language Typology and Syntactic Description vol. I: Clause Structure. Cambridge University Press, Cambridge, UK.
+-->

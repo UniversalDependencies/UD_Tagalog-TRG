@@ -9,7 +9,7 @@
 # sent_id = schachter-otanes-60-1
 # text = Ginising ng ingay ang bata.
 # text_en = A noise awakened the child.
-1	Ginising	gising	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=awakened
+1	Ginising	gising	VERB	_	Aspect=Perf|Mood=Ind|Voice=Und	0	root	_	Gloss=awakened
 2	ng	ng	ADP	_	Case=Gen	3	case	_	_
 3	ingay	ingay	NOUN	_	_	1	obj:agent	_	Gloss=noise
 4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
@@ -19,7 +19,7 @@
 # sent_id = schachter-otanes-60-2
 # text = Sinulat ko ang liham.
 # text_en = I wrote the letter.
-1	Sinulat	sulat	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=written
+1	Sinulat	sulat	VERB	_	Aspect=Perf|Mood=Ind|Voice=Und 0	root	_	Gloss=written
 2	ko	ako	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	obj:agent	_	Gloss=I
 3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the
 4	liham	liham	NOUN	_	_	1	nsubj:pass	_	Gloss=letter|SpaceAfter=No
@@ -28,7 +28,7 @@
 # sent_id = schachter-otanes-60-3
 # text = Sinulatan ko ang titser.
 # text_en = I wrote to the teacher.
-1	Sinulatan	sulat	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=written
+1	Sinulatan	sulat	VERB	_	Aspect=Perf|Mood=Ind|Voice=Und	0	root	_	Gloss=written
 2	ko	ako	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	obj:agent	_	Gloss=I
 3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the
 4	titser	titser	NOUN	_	_	1	nsubj:pass	_	Gloss=teacher|SpaceAfter=No
@@ -350,7 +350,7 @@
 # sent_id = schachter-otanes-69-2
 # text = Binabasa ng titser ang diyaryo.
 # text_en = The teacher is reading the newspaper.
-1	Binabasa	basa	VERB	_	Aspect=Imp|Mood=Ind|Voice=Pass	0	root	_	Gloss=being-read
+1	Binabasa	basa	VERB	_	Aspect=Imp|Mood=Ind|Voice=Und	0	root	_	Gloss=being-read
 2	ng	ng	ADP	_	Case=Gen	3	case	_	_
 3	titser	titser	NOUN	_	_	1	obj:agent	_	Gloss=teacher
 4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
@@ -393,7 +393,7 @@
 # sent_id = schachter-otanes-70-2
 # text = Ibinigay ng titser sa istudyante ang premyo.
 # text_en = The teacher gave the student the prize.
-1	Ibinigay	bigay	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=given
+1	Ibinigay	bigay	VERB	_	Aspect=Perf|Mood=Ind|Voice=Und	0	root	_	Gloss=given
 2	ng	ng	ADP	_	Case=Gen	3	case	_	_
 3	titser	titser	NOUN	_	_	1	obj:agent	_	Gloss=teacher
 4	sa	sa	ADP	_	Case=Dat	5	case	_	Gloss=to
@@ -417,7 +417,7 @@
 # sent_id = schachter-otanes-70-4
 # text = Binili ng mangingisda ang bangka.
 # text_en = The fisherman bought the boat.
-1	Binili	bili	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=bought
+1	Binili	bili	VERB	_	Aspect=Perf|Mood=Ind|Voice=Und	0	root	_	Gloss=bought
 2	ng	ng	ADP	_	Case=Gen	3	case	_	_
 3	mangingisda	mangingisda	NOUN	_	_	1	obj:agent	_	Gloss=fisherman
 4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the
@@ -506,7 +506,7 @@
 # sent_id = devos-71-0
 # text = Nakita kita.
 # text_en = I saw you.
-1	Nakita	kita	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=seen
+1	Nakita	kita	VERB	_	Aspect=Perf|Mood=Ind|Voice=Und	0	root	_	Gloss=seen
 2	kita	ako	PRON	_	Case=Nom|Clusivity=In|Number=Dual|Person=1|PronType=Prs	1	nsubj:pass	_	Gloss=I|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -566,7 +566,7 @@
 # gloss = watch I TOP PL were.dancing
 # text_en = I watched the ones who were dancing
 # http://www.seasite.niu.edu/Tagalog/tagalog_verbs.htm
-1	Pinanood	nood	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=watch
+1	Pinanood	nood	VERB	_	Aspect=Perf|Mood=Ind|Voice=Und	0	root	_	Gloss=watch
 2	ko	ako	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	Gloss=me
 3	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the|MGloss=PIV
 4	mga	mga	DET	_	Number=Plur|PronType=Ind	5	det	_	Gloss=PLUR
@@ -608,7 +608,7 @@
 1	Hindi	hindi	PART	_	Polarity=Neg	4	advmod	_	Gloss=not
 2	ko	ako	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Gloss=me
 3	siya	siya	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	obj	_	Gloss=he
-4	nakita	kita	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=saw|SpaceAfter=No
+4	nakita	kita	VERB	_	Aspect=Perf|Mood=Ind|Voice=Und	0	root	_	Gloss=saw|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	Gloss=.
 
 # sent_id = shopen-1.55b
@@ -616,7 +616,7 @@
 # gloss = not saw AG Pedro TOP Juan
 # text_en = Pedro didn't see Juan
 1	Hindi	hindi	PART	_	Polarity=Neg	2	advmod	_	Gloss=not
-2	nakita	kita	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=saw
+2	nakita	kita	VERB	_	Aspect=Perf|Mood=Ind|Voice=Und	0	root	_	Gloss=saw
 3	ni	ni	ADP	_	Case=Gen	4	case	_	Gloss=DET
 4	Pedro	Pedro	PROPN	_	Gender=Masc	2	nsubj	_	Gloss=Pedro
 5	si	si	ADP	_	Case=Nom	6	case	_	Gloss=the
@@ -627,7 +627,7 @@
 # text = Inahit ni John ang sarili niya.
 # gloss = shaved AG John TOP self his
 # text_en = John shaved himself
-1	Inahit	ahit	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=shaved
+1	Inahit	ahit	VERB	_	Aspect=Perf|Mood=Ind|Voice=Und	0	root	_	Gloss=shaved
 2	ni	ni	ADP	_	Case=Gen	3	case	_	Gloss=DET
 3	John	John	PROPN	_	Gender=Masc	1	nsubj	_	Gloss=John
 4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the|MGloss=PIV
@@ -639,7 +639,7 @@
 # text = Inahit ni John mismo si Bill.
 # gloss = shaved AG John EMPH TOP Bill
 # text_en = John himself shaved Bill
-1	Inahit	ahit	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=shaved
+1	Inahit	ahit	VERB	_	Aspect=Perf|Mood=Ind|Voice=Und	0	root	_	Gloss=shaved
 2	ni	ni	ADP	_	Case=Gen	3	case	_	Gloss=DET
 3	John	John	PROPN	_	Gender=Masc	1	nsubj	_	Gloss=John
 4	mismo	mismo	DET	_	Gender=Masc|PronType=Emp	3	nmod	_	Gloss=EMPH
@@ -761,7 +761,7 @@
 # text = Natalisod ka.
 # gloss = (PERF.INVOL)trip you
 # text_en = You tripped
-1	Natalisod	tisod	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=tripped|MSeg=na-talisod|MGloss=PERF+INVOL-trip
+1	Natalisod	tisod	VERB	_	Aspect=Perf|Mood=Ind|Voice=Und	0	root	_	Gloss=tripped|MSeg=na-talisod|MGloss=PERF+INVOL-trip
 2	ka	ikaw	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	Gloss=you|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	Gloss=.
 
@@ -794,7 +794,7 @@
 # text = Itinanong ko kung nasaan sila.
 # gloss = asked I COMP where they
 # text_en = I asked where they were
-1	Itinanong	tanong	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=asked
+1	Itinanong	tanong	VERB	_	Aspect=Perf|Mood=Ind|Voice=Und	0	root	_	Gloss=asked
 2	ko	ako	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	Gloss=me
 3	kung	kung	SCONJ	_	_	4	mark	_	Gloss=that
 4	nasaan	nasaan	ADV	_	PronType=Int	1	ccomp	_	Gloss=where
@@ -986,7 +986,7 @@
 # gloss = FUT-take.out-OP ACT woman PIV rice DIR sack for BEN child
 # text_en = A/the woman will take the rice out of a/the sack for a/the child
 # OP = object pivot; PIV = pivot marker
-1	Aalisin	alis	VERB	_	Aspect=Prog|Mood=Ind|Voice=Pass	0	root	_	Gloss=will-take-out|MSeg=a-alis-in|MGloss=FUT-take.out-OP
+1	Aalisin	alis	VERB	_	Aspect=Prog|Mood=Ind|Voice=Und	0	root	_	Gloss=will-take-out|MSeg=a-alis-in|MGloss=FUT-take.out-OP
 2	ng	ng	ADP	_	Case=Gen	3	case	_	Gloss=DET
 3	babae	babae	NOUN	_	_	1	obj:agent	_	Gloss=woman
 4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the|MGloss=PIV
@@ -1050,7 +1050,7 @@
 1	Interesante	interesante	ADJ	_	Degree=Pos	0	root	_	Gloss=interesting
 2	ang	ang	ADP	_	Case=Nom	3	case	_	Gloss=the|MGloss=PIV
 3	diyaryong	diyaryo	NOUN	_	Link=Yes	1	nsubj	_	Gloss=newspaper|MSeg=diyaryo-ng|MGloss=newspaper-LINK
-4	binasa	basa	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	3	acl:relcl	_	Gloss=be-read|MSeg=b[in]asa-0|MGloss=[PERF]-read-OP
+4	binasa	basa	VERB	_	Aspect=Perf|Mood=Ind|Voice=Und	3	acl:relcl	_	Gloss=be-read|MSeg=b[in]asa-0|MGloss=[PERF]-read-OP
 5	ng	ng	ADP	_	Case=Gen	6	case	_	Gloss=DET
 6	lalaki	lalaki	NOUN	_	_	4	obj	_	Gloss=man|SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	Gloss=.
@@ -1075,7 +1075,7 @@
 # source = Schachter and Otanes, 1972:147-8
 # gloss = FUT-write-OP all ACT PL child PIV PL letter
 # text_en = The/some children will write all the letters
-1	Susulatin	sulat	VERB	_	Aspect=Prog|Mood=Ind|Voice=Pass	0	root	_	Gloss=will-be-written|MSeg=su-sulat-in|MGloss=FUT-write-OP
+1	Susulatin	sulat	VERB	_	Aspect=Prog|Mood=Ind|Voice=Und	0	root	_	Gloss=will-be-written|MSeg=su-sulat-in|MGloss=FUT-write-OP
 2	lahat	lahat	DET	_	PronType=Tot	8	det	_	Gloss=all
 3	ng	ng	ADP	_	Case=Gen	5	case	_	Gloss=DET
 4	mga	mga	DET	_	Number=Plur|PronType=Ind	5	det	_	Gloss=PLUR
@@ -1103,7 +1103,7 @@
 # source = Schachter, 1977:292
 # gloss = PERF-worry-OP ACT grandfather PIV his-LINK self
 # text_en = Grandfather worried about himself
-1	Inalala	alala	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=worried|MSeg=in-alala-0|MGloss=PERF-worry-OP
+1	Inalala	alala	VERB	_	Aspect=Perf|Mood=Ind|Voice=Und	0	root	_	Gloss=worried|MSeg=in-alala-0|MGloss=PERF-worry-OP
 2	ng	ng	ADP	_	Case=Gen	3	case	_	Gloss=DET
 3	lolo	lolo	NOUN	_	_	1	obj:agent	_	Gloss=grandfather
 4	ang	ang	ADP	_	Case=Nom	6	case	_	Gloss=the|MGloss=PIV
@@ -1115,7 +1115,7 @@
 # text = Iniabot niya sa bata ang kaniyang sariling larawan.
 # gloss = PERF-OP-hand he(ACT) DIR child PIV his-LINK self-LINK picture
 # text_en = He[i] handed the child[j] a picture of himself[i,j]
-1	Iniabot	abot	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=handed|MSeg=in-i-abot|MGloss=PERF-OP-hand
+1	Iniabot	abot	VERB	_	Aspect=Perf|Mood=Ind|Voice=Und	0	root	_	Gloss=handed|MSeg=in-i-abot|MGloss=PERF-OP-hand
 2	niya	siya	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	obj:agent	_	Gloss=him|MGloss=he(ACT)
 3	sa	sa	ADP	_	Case=Dat	4	case	_	Gloss=to
 4	bata	bata	NOUN	_	_	1	obl	_	Gloss=child
@@ -1172,7 +1172,7 @@
 # source = Schachter and Otanes, 1972:407-9
 # gloss = Sweep-OP us(DU.ACT) PIV floor
 # text_en = Let's sweep the floor
-1	Walisan	walis	VERB	_	Mood=Imp|Voice=Pass	0	root	_	Gloss=sweep|MSeg=walis-an|MGloss=sweep-OP
+1	Walisan	walis	VERB	_	Mood=Imp|Voice=Und	0	root	_	Gloss=sweep|MSeg=walis-an|MGloss=sweep-OP
 2	natin	ako	PRON	_	Case=Gen|Clusivity=In|Number=Plur|Person=1|PronType=Prs	1	obj:agent	_	Gloss=us|MGloss=us(DU.ACT)
 3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the|MGloss=PIV
 4	sahig	sahig	NOUN	_	_	1	nsubj:pass	_	Gloss=floor|SpaceAfter=No
@@ -1183,7 +1183,7 @@
 # source = Schachter and Otanes, 1972:407-9
 # gloss = Sweep-OP they(ACT) PIV floor
 # text_en = I want them to sweep the floor
-1	Walisan	walis	VERB	_	Mood=Imp|Voice=Pass	0	root	_	Gloss=sweep|MSeg=walis-an|MGloss=sweep-OP
+1	Walisan	walis	VERB	_	Mood=Imp|Voice=Und	0	root	_	Gloss=sweep|MSeg=walis-an|MGloss=sweep-OP
 2	nila	sila	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	1	obj:agent	_	Gloss=them|MGloss=they(ACT)
 3	ang	ang	ADP	_	Case=Nom	4	case	_	Gloss=the|MGloss=PIV
 4	sahig	sahig	NOUN	_	_	1	nsubj:pass	_	Gloss=floor|SpaceAfter=No
@@ -1210,7 +1210,7 @@
 # text_en = He hesitated to borrow the money from the bank
 1	Nagatubili	atubili	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	0	root	_	Gloss=hesitated|MSeg=nag-atubili|MGloss=AP-hesitate
 2	siyang	siya	PRON	_	Case=Nom|Link=Yes|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	Gloss=he|MSeg=siya-ng|MGloss=he(PIV)-LINK
-3	hiramin	hiram	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	1	xcomp	_	Gloss=borrow|MSeg=hiram-in|MGloss=borrow-OP
+3	hiramin	hiram	VERB	_	Aspect=Perf|Mood=Ind|Voice=Und	1	xcomp	_	Gloss=borrow|MSeg=hiram-in|MGloss=borrow-OP
 4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the|MGloss=PIV
 5	pera	pera	NOUN	_	_	3	nsubj:pass	_	Gloss=money
 6	sa	sa	ADP	_	Case=Dat	7	case	_	Gloss=to|MGloss=DIR
@@ -1225,10 +1225,10 @@
 # The verb gusto seems to have only the patient focus voice. But here it appears in its base form, without aspectual inflection.
 # https://www.tagalog.com/words/gusto.php suggests that "gusto" does not inflect.
 # The patient focus means that the agent (which is the only argument) must appear in the genitive case.
-1	Gusto	gusto	VERB	_	Aspect=Hab|Voice=Pass	0	root	_	Gloss=want
+1	Gusto	gusto	VERB	_	Aspect=Hab|Voice=Und	0	root	_	Gloss=want
 2	ni	ni	ADP	_	Case=Gen	3	case	_	Gloss=DET
 3	Juan	Juan	PROPN	_	Gender=Masc|Link=Yes	1	obj:agent	_	Gloss=Juan|MGloss=John(LINK)
-4	suriin	suri	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	1	ccomp	_	Gloss=examine|MSeg=suri-in|MGloss=examine-OP
+4	suriin	suri	VERB	_	Aspect=Perf|Mood=Ind|Voice=Und	1	ccomp	_	Gloss=examine|MSeg=suri-in|MGloss=examine-OP
 5	siya	siya	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	Gloss=he|MGloss=he(PIV)
 6	ng	ng	ADP	_	Case=Gen	7	case	_	Gloss=DET|MGloss=ACT
 7	doktor	doktor	NOUN	_	_	4	obj:agent	_	Gloss=doctor|SpaceAfter=No
@@ -1247,7 +1247,7 @@
 # text = Gusto niyang gumanda.
 # gloss = want he/she(ACT)-LINK [AP]-beautiful
 # text_en = She wants to become beautiful
-1	Gusto	gusto	VERB	_	Aspect=Hab|Voice=Pass	0	root	_	Gloss=want
+1	Gusto	gusto	VERB	_	Aspect=Hab|Voice=Und	0	root	_	Gloss=want
 2	niyang	siya	PRON	_	Case=Gen|Link=Yes|Number=Sing|Person=3|PronType=Prs	1	obj:agent	_	Gloss=him|MSeg=niya-ng|MGloss=he/she(ACT)-LINK
 3	gumanda	ganda	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	1	xcomp	_	Gloss=become-beautiful|MGloss=[AP]-beautiful|MSeg=g[um]anda|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	Gloss=.
@@ -1256,7 +1256,7 @@
 # text = Gusto kong tumanggap ng gantimpala.
 # gloss = want I(ACT)-LINK [AP]-receive OBJ prize
 # text_en = I want to be the recipient of the prize
-1	Gusto	gusto	VERB	_	Aspect=Hab|Voice=Pass	0	root	_	Gloss=want
+1	Gusto	gusto	VERB	_	Aspect=Hab|Voice=Und	0	root	_	Gloss=want
 2	kong	ako	PRON	_	Case=Gen|Link=Yes|Number=Sing|Person=1|PronType=Prs	1	obj:agent	_	Gloss=me|MSeg=ko-ng|MGloss=I(ACT)-LINK
 3	tumanggap	tanggap	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	1	xcomp	_	Gloss=received|MSeg=t[um]anggap|MGloss=[AP]-receive
 4	ng	ng	ADP	_	Case=Gen	5	case	_	Gloss=DET|MGloss=OBJ
@@ -1267,9 +1267,9 @@
 # text = Gusto kong matanggap ang gantimpala.
 # gloss = want I(ACT)-LINK OP-receive PIV prize
 # text_en = I want to receive the prize
-1	Gusto	gusto	VERB	_	Aspect=Hab|Voice=Pass	0	root	_	Gloss=want
+1	Gusto	gusto	VERB	_	Aspect=Hab|Voice=Und	0	root	_	Gloss=want
 2	kong	ako	PRON	_	Case=Gen|Link=Yes|Number=Sing|Person=1|PronType=Prs	1	obj:agent	_	Gloss=me|MSeg=ko-ng|MGloss=I(ACT)-LINK
-3	matanggap	tanggap	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	1	xcomp	_	Gloss=received|MSeg=ma-tanggap|MGloss=OP-receive
+3	matanggap	tanggap	VERB	_	Aspect=Perf|Mood=Ind|Voice=Und	1	xcomp	_	Gloss=received|MSeg=ma-tanggap|MGloss=OP-receive
 4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the|MGloss=PIV
 5	gantimpala	gantimpala	NOUN	_	_	3	nsubj:pass	_	Gloss=prize|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	Gloss=.
@@ -1278,7 +1278,7 @@
 # text = Ayaw kong mamatay sa Maynila.
 # gloss = not.want I(ACT)-LINK AP-die DIR Manila
 # text_en = I don't want to die in Manila
-1	Ayaw	ayaw	VERB	_	Aspect=Hab|Voice=Pass	0	root	_	Gloss=not-want|MGloss=not.want
+1	Ayaw	ayaw	VERB	_	Aspect=Hab|Voice=Und	0	root	_	Gloss=not-want|MGloss=not.want
 2	kong	ako	PRON	_	Case=Gen|Link=Yes|Number=Sing|Person=1|PronType=Prs	1	obj:agent	_	Gloss=me|MSeg=ko-ng|MGloss=I(ACT)-LINK
 3	mamatay	patay	VERB	_	Aspect=Perf|Mood=Ind|Voice=Act	1	xcomp	_	Gloss=die|MSeg=ma-matay|MGloss=AP-die
 4	sa	sa	ADP	_	Case=Dat	5	case	_	Gloss=to|MGloss=DIR
@@ -1289,7 +1289,7 @@
 # text = Binisita ni Juan ang hari nang nagiisa.
 # gloss = [PERF]-visit(OP) ACT Juan PIV king ADV AP.IMPERF-one
 # text_en = Juan visited the king alone [either Juan or the king is alone]
-1	Binisita	bisita	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=visited|MSeg=b[in]isita|MGloss=[PERF]-visit(OP)
+1	Binisita	bisita	VERB	_	Aspect=Perf|Mood=Ind|Voice=Und	0	root	_	Gloss=visited|MSeg=b[in]isita|MGloss=[PERF]-visit(OP)
 2	ni	ni	ADP	_	Case=Gen	3	case	_	Gloss=DET|MGloss=ACT
 3	Juan	Juan	PROPN	_	Gender=Masc	1	obj:agent	_	Gloss=Juan|MGloss=John(LINK)
 4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the|MGloss=PIV
@@ -1315,7 +1315,7 @@
 # text = Hinuli ng polis ang mgananakaw nang pumapasok sa banko.
 # gloss = PERF-catch(OP) ACT police PIV thief ADV AP.IMPERF:enter DAT bank
 # text_en = The police caught the thief entering the bank [either thief or police are entering]
-1	Hinuli	huli	VERB	_	Aspect=Perf|Mood=Ind|Voice=Pass	0	root	_	Gloss=caught|MSeg=h[in]uli|MGloss=PERF-catch(OP)
+1	Hinuli	huli	VERB	_	Aspect=Perf|Mood=Ind|Voice=Und	0	root	_	Gloss=caught|MSeg=h[in]uli|MGloss=PERF-catch(OP)
 2	ng	ng	ADP	_	Case=Gen	3	case	_	Gloss=DET|MGloss=ACT
 3	polis	polis	NOUN	_	_	1	obj:agent	_	Gloss=police
 4	ang	ang	ADP	_	Case=Nom	5	case	_	Gloss=the|MGloss=PIV

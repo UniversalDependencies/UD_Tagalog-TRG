@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Tagalog-TRG:
-commit 80c10e758b4a9ff7e3629a913a62aec6ce835021
+commit 665cc9b4878a70d174e1c06bddbc070b4e41e2af
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 13:08:33 2023 +0100
+Date:   Sun May 5 13:34:20 2024 +0200
 Size: counted 734 of 734 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.
 Size: maximum value 13.815511 is for 1000000 words or more.

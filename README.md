@@ -35,6 +35,7 @@ of California Press. isbn: 9780520017764.
 Data available since: UD v2.2
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: grammar-examples
 Lemmas: manual native
 UPOS: manual native

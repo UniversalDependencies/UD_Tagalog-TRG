@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Tagalog-TRG:
-commit 94f70e305d17e76531a970559f726fee3266924b
-Merge: cef94c8 7d4e6ef
+commit 7151bec17280ebbfdb61f82126649f7b95216703
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:55:33 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'tl_trg'
 Language code (from CoNLL-U file name) = 'tl'
@@ -25,8 +25,8 @@ Universal relations: 19 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tl --max-err=10 UD_Tagalog-TRG/tl_trg-ud-test.conllu
-[Line 772 Sent shopen-1.100]: [L3 Syntax too-many-objects] Multiple direct objects [3, 5] ('John', 'liham') under the predicate 'Ipinansulat'.
-Syntax errors: 1
+[Line 772 Sent shopen-1.100]: [L3 SYNTAX too-many-objects] Multiple direct objects [3, 5] ('John', 'liham') under the predicate 'Ipinansulat'.
+SYNTAX errors: 1
 *** FAILED *** with 1 errors
 Exit code: 1
 Validity: 0.01

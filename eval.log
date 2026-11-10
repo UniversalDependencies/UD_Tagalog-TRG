@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Tagalog-TRG:
-commit 7151bec17280ebbfdb61f82126649f7b95216703
+commit 79d6f43d7bed98aff1c7d074745a524441b73ccc
+Merge: 8e4d61c 6699ec6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 20:55:33 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'tl_trg'
 Language code (from CoNLL-U file name) = 'tl'
@@ -25,11 +25,8 @@ Universal relations: 19 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tl --max-err=10 UD_Tagalog-TRG/tl_trg-ud-test.conllu
-[Line 772 Sent shopen-1.100]: [L3 SYNTAX too-many-objects] Multiple direct objects [3, 5] ('John', 'liham') under the predicate 'Ipinansulat'.
-SYNTAX errors: 1
-*** FAILED *** with 1 errors
-Exit code: 1
-Validity: 0.01
+*** PASSED ***
+Validity: 1
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
@@ -37,6 +34,6 @@ Validity: 0.01
 (weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
 (weight=0.111111111111111) * (score{tags}=0.764705882352941) = 0.0849673202614379
 (weight=0.111111111111111) * (score{udeprels}=0.513513513513513) = 0.057057057057057
-(TOTAL score=0.371160179787631) * (availability=1) * (validity=0.01) = 0.00371160179787631
-STARS = 0
-UD_Tagalog-TRG	0.00371160179787631	0
+(TOTAL score=0.371160179787631) * (availability=1) * (validity=1) = 0.371160179787631
+STARS = 2
+UD_Tagalog-TRG	0.371160179787631	2

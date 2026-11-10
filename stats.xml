@@ -88,7 +88,7 @@
     <dep name="det">11</dep>
     <dep name="flat">1</dep>
     <dep name="iobj">1</dep>
-    <dep name="iobj:patient">3</dep>
+    <dep name="iobj:patient">4</dep>
     <dep name="mark">7</dep>
     <dep name="nmod">7</dep>
     <dep name="nmod:poss">2</dep>
@@ -97,7 +97,7 @@
     <dep name="nsubj:ifoc">1</dep>
     <dep name="nsubj:lfoc">6</dep>
     <dep name="nsubj:pass">17</dep>
-    <dep name="obj">33</dep>
+    <dep name="obj">32</dep>
     <dep name="obj:agent">28</dep>
     <dep name="obl">27</dep>
     <dep name="punct">131</dep>
